@@ -1,0 +1,29 @@
+<header>
+
+  <div class="titulo center-xs" id="my-div4">
+    <h1><%= image_tag "imagen2.png" %><pru id="color1">ceiba</pru><pru2 id="color2">Eafit</pru2></h1>
+  </div>
+  <nav id="be-red"class="white pad_length navbar navbar-default center-xs">
+    <ul class="no-list row center-xs white">
+      <li class="col-md li">
+        <%=link_to "Inicio",root_path%>
+      </li>
+      <li class="col-md">
+        <% if user_signed_in?%>
+          Noticias
+        <% else %>
+        <%=link_to "Ingresar" ,new_user_session_path%>
+        <% end %>
+      </li>
+      <% if user_signed_in? %>
+        <li class="col-md">
+          <%=link_to "Cerrar sesión",destroy_user_session_path, method: :delete%>
+        </li>
+      <% else %>
+        <li class="col-md">
+          <%=link_to "¿Que es ceiba solar?",home_about_path%>
+        </li>
+      <% end %>
+    </ul>
+  </nav>
+</header>

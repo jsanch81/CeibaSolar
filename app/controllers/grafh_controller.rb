@@ -1,0 +1,2 @@
+class GrafhController < ApplicationController
+end
