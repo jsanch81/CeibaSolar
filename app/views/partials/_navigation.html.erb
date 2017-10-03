@@ -6,11 +6,36 @@
   <nav id="be-red"class="white pad_length navbar navbar-default center-xs">
     <ul class="no-list row center-xs white">
       <li class="col-md li">
+        <% if user_signed_in?%>
+          <% if current_user.try(:admin?)%>
+            <%=link_to "Inicio",home_menu_path%>
+          <% else %>
+            <%=link_to "Inicio",home_menu_path%>
+          <% end %>
+        <% else %>
         <%=link_to "Inicio",root_path%>
+        <% end %>
       </li>
+      <% if user_signed_in? %>
+        <% if current_user.try(:admin?) %>
+          <li class="col-md">
+            Alertas
+          </li>
+          <li class="col-md">
+            Configurar
+          </li>
+          <li class="col-md">
+            <%=link_to "Crear usuarios",home_createUser_path%>
+          </li>
+        <% end %>
+      <% end %>
       <li class="col-md">
         <% if user_signed_in?%>
-          Noticias
+          <% if current_user.try(:admin?)%>
+            Noticias
+          <% else %>
+            Noticias
+          <% end %>
         <% else %>
         <%=link_to "Ingresar" ,new_user_session_path%>
         <% end %>

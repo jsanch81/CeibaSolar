@@ -4,6 +4,10 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+
+gem 'cancancan'
+#para dar roles de admin y user normal
+gem 'rolify'
 #Para el inicio de seccion
 gem 'devise', '~> 4.3'
 #inicio de seccion

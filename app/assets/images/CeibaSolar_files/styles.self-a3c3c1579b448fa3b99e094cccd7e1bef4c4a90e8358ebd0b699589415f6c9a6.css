@@ -1,0 +1,176 @@
+/* line 2, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+li {
+  list-style: none;
+}
+
+/* line 5, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.white {
+  color: white;
+  font-size: 25px;
+  font-family: 'Bree Serif', serif;
+}
+
+/* line 10, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+#be-red {
+  background-color: #033958;
+  list-style: none;
+}
+
+/* line 14, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+#logo {
+  background: url(images/image1.jpg) 0 0;
+}
+
+/* line 18, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.inicio {
+  color: #17ADF8;
+  font-family: 'Bree Serif', serif;
+}
+
+/* line 22, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.inicio2 {
+  color: #282929;
+  font-family: 'Bree Serif', serif;
+}
+
+/* line 26, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.field {
+  color: black;
+  margin-top: 1em;
+}
+
+/* line 30, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.pad_length {
+  padding: 20px 10px;
+}
+
+/* line 33, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+a, a:visited {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+/* line 37, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+#color1 {
+  color: #52D922;
+}
+
+/* line 40, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+#color2 {
+  color: #033958;
+}
+
+/* line 43, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.boton {
+  background-color: #17ADF8;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* line 53, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.sign-up {
+  position: relative;
+  margin: 50px auto;
+  width: 280px;
+  padding: 33px 25px 29px;
+  background: white;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+/* line 61, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.sign-up:before, .sign-up:after {
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: inherit;
+  border-bottom: 1px solid #d2d2d2;
+  border-radius: 4px;
+}
+/* line 73, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.sign-up:after {
+  bottom: 3px;
+  border-color: #dcdcdc;
+}
+
+/* line 79, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.sign-up-title {
+  margin: -25px -25px 25px;
+  padding: 15px 25px;
+  line-height: 35px;
+  font-size: 26px;
+  font-weight: 300;
+  color: #aaa;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+  background: #f7f7f7;
+}
+/* line 90, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.sign-up-title:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: #c4e17f;
+  border-radius: 5px 5px 0 0;
+}
+
+/* line 103, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+input {
+  font-family: inherit;
+  color: inherit;
+}
+
+/* line 108, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.sign-up-input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+  padding: 0 15px 2px;
+  font-size: 17px;
+  background: white;
+  border: 2px solid #ebebeb;
+  border-radius: 4px;
+}
+/* line 118, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.sign-up-input:focus {
+  border-color: #62c2e4;
+  outline: none;
+}
+/* line 123, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.lt-ie9 .sign-up-input {
+  line-height: 48px;
+}
+
+/* line 126, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.sign-up-button {
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 54px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #f0776c;
+  border: 0;
+  border-bottom: 2px solid #d76b60;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 141, /Users/josesanchez/CeibaSolar/app/assets/stylesheets/styles.scss */
+.sign-up-button:active {
+  top: 1px;
+  outline: none;
+}
