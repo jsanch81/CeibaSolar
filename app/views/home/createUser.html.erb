@@ -1,41 +1,41 @@
 <div id="conteiner_admin">
-      <div class="container">
-        <div align="center">
-          <%= form_for(@user , url: home_createUserP_path,method: :post) do |f| %>
-          <% @user.errors.full_messages.each do |message|%>
-            <div class="be-red white err">
-              *<%=message%>
-            </div>
-          <%end%>
-          <div class="field">
-            <%= f.label :email %><br />
-            <%= f.email_field :email, autofocus: true %>
-          </div>
+  <div class="container">
+    <div align="center">
+      <%= form_for(@user , url: home_createUserP_path,method: :post) do |f| %>
+      <% @user.errors.full_messages.each do |message|%>
+      <div class="be-red white err">
+        *<%=message%>
+      </div>
+      <%end%>
+      <div class="field">
+        <%= f.label :email %><br />
+        <%= f.email_field :email, autofocus: true %>
+      </div>
 
-          <div class="field">
-            <%= f.label :password %>
-            <% if @minimum_password_length %>
-            <em>(<%= @minimum_password_length %> characters minimum)</em>
-            <% end %><br />
-            <%= f.password_field :password, autocomplete: "off" %>
-          </div>
+      <div class="field">
+        <%= f.label :password %>
+        <% if @minimum_password_length %>
+        <em>(<%= @minimum_password_length %> characters minimum)</em>
+        <% end %><br />
+        <%= f.password_field :password, autocomplete: "off" %>
+      </div>
 
-          <div class="field">
-            <%= f.label :password_confirmation %><br />
-            <%= f.password_field :password_confirmation, autocomplete: "off" %>
-          </div>
+      <div class="field">
+        <%= f.label :password_confirmation %><br />
+        <%= f.password_field :password_confirmation, autocomplete: "off" %>
+      </div>
 
-            <div class="field">
+      <div class="field">
 
-              <p>¿Quiere que el usuario sea administrador? <%= f.select :admin,options_for_select([[true], [false]]) %></p> 
-
-            </div>
-            <br>
-            <div class="actions">
-                <%= f.submit "Crear usuario",class:"boton"%>
-            </div>
-          <% end %>
-        </div>
+        <p>¿Quiere que el usuario sea administrador? <%= f.select :admin,options_for_select([[true], [false]]) %></p>
 
       </div>
+      <br>
+      <div class="actions">
+        <%= f.submit "Crear usuario",class:"boton"%>
+      </div>
+      <% end %>
+    </div>
+
+  </div>
 </div>
