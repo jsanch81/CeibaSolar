@@ -7,6 +7,10 @@ end
 #postgres
 gem 'pg'
 
+gem 'bundle'
+
+gem 'bundler'
+
 gem 'cancancan'
 #para dar roles de admin y user normal
 gem 'rolify'
@@ -52,15 +56,14 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'sqlite3'
 end
+
 group :production do
   gem 'rails_12factor'
   gem 'pg'
-  #gem 'pg'
 end
 
-
 group :development do
-  #gem 'sqlite3'
+  gem 'sqlite3'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
