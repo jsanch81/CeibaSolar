@@ -1,0 +1,2 @@
+class Dato < ApplicationRecord
+end

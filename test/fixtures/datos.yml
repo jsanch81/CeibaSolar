@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  presion: 
+  tempeatura: 
+  humedad: 
+  carga: 
+  clima: 
+
+two:
+  presion: 
+  tempeatura: 
+  humedad: 
+  carga: 
+  clima: 
