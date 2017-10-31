@@ -27,7 +27,7 @@ def temperature(r):
     if(hour>8 and hour<12):
         T=randrange_float(21.0, 23.0, 0.0001)
     if(hour>11 and hour<15):
-        T=randrange_float(24.0, 27.0, 0.0001)
+        T=randrange_float(25.0, 27.0, 0.0001)
     if(hour>14 and hour<18):
         T=randrange_float(22.0, 25.0, 0.0001)
     if(hour>17 and hour<21):
@@ -37,7 +37,7 @@ def temperature(r):
     return(T)
 
 def pressure():
-    P=0.84
+    P=randrange_float(0.82, 0.86, 0.001)
     return(P)
 
 def weather(x):
@@ -60,8 +60,7 @@ def weather(x):
         return(a)
     return(a)
 
-def charge(chargea, n):
-
+def charge(chargea,n):
     st=array([0, 0, 0, 0])
     st=weather(True)
     if(st[0]>0):
@@ -70,6 +69,8 @@ def charge(chargea, n):
             hora=1
             solarT=(solarE*hora)/1000
             electricE=(1000*solarT)/7.83
+            if(n==4):
+                return(electricE)
             chargea=(chargea+electricE)
             if (chargea>200):
                 chargea=200
@@ -86,27 +87,29 @@ def charge(chargea, n):
     nn=random.randint(0,8)
     i=0
     uncharge=0
+    entrance=chargea
     while(i<nn and charge>uncharge):
         typ=random.randint(1,2)
-        uncharge=(typ*3)
+        uncharge=(typ*2.125)
         chargea-=uncharge
         if(chargea<0):
             chargea=0
         i+=1
     #print(chargea)
-    if(n):
+    if(n==1):
         return(chargea)
     else:
-        return(st)
-
-
+        if(n==2):
+            return(st)
+        else:
+            return(uncharge)
 
 def main(x):
     send=False
     chargea=random.randint(1,20)
-    chargea=charge(chargea,True)
+    chargea=charge(chargea,1)
     arreglo=([0,0,0,0])
-    arreglo=charge(0,False)
+    arreglo=charge(0,2)
     Te=temperature(send)
     if(x==0):
         return(arreglo[2])
@@ -124,6 +127,7 @@ def main(x):
     return(0)
 
 
+
 def postSend():
     payload=array([])
     while(True):
@@ -131,10 +135,14 @@ def postSend():
         u=requests.get(url)
         Presion=main(0)
         Temperatura=main(2)
+        exit=0
+        exit=charge(0,0)
+        entrance=0
+        entrance=charge(0,4)
         Humedad=main(1)
         Carga=main(4)
         Clima=main(3)
-        payload = {'dato[humedad]': str(Humedad), 'dato[carga]': str(Carga), 'dato[presion]': str(Presion), 'dato[clima]': Clima, 'dato[tempeatura]': str(Temperatura)}
+        payload = {'dato[humedad]': str(Humedad), 'dato[carga]': str(Carga), 'dato[presion]': str(Presion), 'dato[clima]': Clima, 'dato[tempeatura]': str(Temperatura),'dato[energiaSalida]':exit, 'dato[enegiaEntrada]': entrance}
         print(payload)
         r = requests.post(url, data=payload)
         time.sleep(1)

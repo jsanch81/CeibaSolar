@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   post "graph/post"
   get "graph/show"
+  get "graph/tabla"  
   get "home/createUser"
   post "home/createUserP"
   get ":controller/:action/:id"
