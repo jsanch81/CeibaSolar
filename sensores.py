@@ -60,7 +60,7 @@ def weather(x):
         return(a)
     return(a)
 
-def charge(chargea):
+def charge(chargea, n):
 
     st=array([0, 0, 0, 0])
     st=weather(True)
@@ -94,26 +94,28 @@ def charge(chargea):
             chargea=0
         i+=1
     #print(chargea)
-    return(chargea)
+    if(n):
+        return(chargea)
+    else:
+        return(st)
+
 
 
 def main(x):
     send=False
     chargea=random.randint(1,20)
-    chargea=charge(chargea)
-    P=pressure()
+    chargea=charge(chargea,True)
+    arreglo=([0,0,0,0])
+    arreglo=charge(0,False)
     Te=temperature(send)
-    H=humedity(0,send)
-    time.sleep(1)
-    #print(P,H,Te)
     if(x==0):
-        return(P)
+        return(arreglo[2])
     if(x==1):
-        return(H)
+        return(arreglo[3])
     if(x==2):
-        return(Te)
+        return(arreglo[1])
     if(x==3):
-        if(H<65 and Te>22):
+        if(arreglo[0]==1):
             return('Sunny')
         else:
             return('Cloudy')
@@ -125,16 +127,17 @@ def main(x):
 def postSend():
     payload=array([])
     while(True):
-        url='http://localhost:3000/graph/show'
+        url='http://localhost:3000/graph/post'
         u=requests.get(url)
         Presion=main(0)
         Temperatura=main(2)
         Humedad=main(1)
         Carga=main(4)
         Clima=main(3)
-        payload = {'key1': str(Humedad), 'key2': str(Carga), 'key3': str(Presion), 'key4': Clima, 'key5': str(Temperatura)}
-        #print(payload)
+        payload = {'dato[humedad]': str(Humedad), 'dato[carga]': str(Carga), 'dato[presion]': str(Presion), 'dato[clima]': Clima, 'dato[tempeatura]': str(Temperatura)}
+        print(payload)
         r = requests.post(url, data=payload)
+        time.sleep(1)
     return(0)
 
 postSend()
