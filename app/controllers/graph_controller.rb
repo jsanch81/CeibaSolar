@@ -1,7 +1,7 @@
 class GraphController < ApplicationController
     @datos = 0
   def post
-    @datos = params[0]
+    @datos = params
   end
   def show
 
