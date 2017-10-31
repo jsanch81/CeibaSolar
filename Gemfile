@@ -4,6 +4,8 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+#postgres
+gem 'pg'
 
 gem 'cancancan'
 #para dar roles de admin y user normal
@@ -60,14 +62,20 @@ group :production do
   gem 'sqlite3'
   gem 'bundler'
 end
+
+group :production do
+  gem 'rails_12factor'
+  gem 'pg'
+end
+
 group :development do
+  gem 'sqlite3'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'sqlite3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
