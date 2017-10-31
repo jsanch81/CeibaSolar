@@ -4,7 +4,9 @@ Rails.application.routes.draw do
   root to: "home#index"
   get "home/about"
   get "home/menu"
-  get "graph/post"
+
+  post "graph/post"
+  get "graph/show"
   get "home/createUser"
   post "home/createUserP"
   get ":controller/:action/:id"
