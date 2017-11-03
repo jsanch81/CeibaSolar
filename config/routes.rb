@@ -5,10 +5,12 @@ Rails.application.routes.draw do
   get "home/about"
   get "home/menu"
 
-  post "graph/post"
-  get "graph/show"
-  get "graph/tabla"  
+  post "home/post"
+  get "home/show"
+  get "home/tabla"
   get "home/createUser"
+  get "home/consumo"
+  get "home/ambiente"
   post "home/createUserP"
   get ":controller/:action/:id"
     # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

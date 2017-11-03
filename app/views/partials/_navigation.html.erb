@@ -8,9 +8,9 @@
       <li class="col-md li">
         <% if user_signed_in?%>
           <% if current_user.try(:admin?)%>
-            <%=link_to "Inicio",home_menu_path%>
+            <%=link_to "Almacenamiento",home_menu_path%>
           <% else %>
-            <%=link_to "Inicio",home_menu_path%>
+            <%=link_to "Almacenamiento",home_menu_path%>
           <% end %>
         <% else %>
         <%=link_to "Inicio",root_path%>
@@ -19,10 +19,10 @@
       <% if user_signed_in? %>
         <% if current_user.try(:admin?) %>
           <li class="col-md">
-            Alertas
+              <%=link_to "Ambiente",home_ambiente_path%>
           </li>
           <li class="col-md">
-            Configurar
+            <%=link_to "Consumo",home_consumo_path%>
           </li>
           <li class="col-md">
             <%=link_to "Crear usuarios",home_createUser_path%>

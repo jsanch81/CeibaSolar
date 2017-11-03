@@ -131,7 +131,7 @@ def main(x):
 def postSend():
     payload=array([])
     while(True):
-        url='http://localhost:3000/graph/post'
+        url='http://localhost:3000/home/post'
         u=requests.get(url)
         Presion=main(0)
         Temperatura=main(2)
