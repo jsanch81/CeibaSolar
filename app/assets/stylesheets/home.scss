@@ -1,3 +1,58 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.contenedor{
+   overflow:hidden;
+}
+
+.div1{
+   float: left;
+   font-weight: bold;
+      color: #17ADF8;
+   padding: 2 2 2 2px;
+   width: 630px;
+   height: 250px;
+   border-radius: 3px 3px 3px 3px;
+   -moz-border-radius: 3px 3px 3px 3px;
+   -webkit-border-radius: 3px 3px 3px 3px;
+border: 1px dotted #000000;
+
+}
+
+.div2{
+   float:right;
+   font-weight: bold;
+   color: #17ADF8;
+   padding: 2 2 2 2px;
+   width: 630px;
+   height: 250px;
+   border-radius: 3px 3px 3px 3px;
+   -moz-border-radius: 3px 3px 3px 3px;
+   -webkit-border-radius: 3px 3px 3px 3px;
+border: 1px dotted #000000;}
+
+.div3{
+   float:left;
+   font-weight: bold;
+   color: #17ADF8;
+   padding: 2 2 2 2px;
+   width: 630px;
+   height: 250px;
+   border-radius: 0px 0px 3px 3px;
+   -moz-border-radius: 3px 3px 3px 3px;
+   -webkit-border-radius: 3px 3px 3px 3px;
+border: 1px dotted #000000;
+}
+
+.div4{
+   float:right;
+   font-weight: bold;
+   color: #17ADF8;
+   padding: 2 2 2 2px;
+   width: 630px;
+   height: 250px;
+   border-radius: 3px 3px 3px 3px;
+   -moz-border-radius: 3px 3px 3px 3px;
+   -webkit-border-radius: 3px 3px 3px 3px;
+border: 1px dotted #000000;
+}

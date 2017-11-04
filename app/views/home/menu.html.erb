@@ -36,7 +36,6 @@
   </script>
   </head>
 <p><%=link_to "datos",home_show_path%></p>
-<p><%=@data%></p>
 <div class="center-xs">
 <% if user_signed_in? %>
   <% if current_user.try(:admin?) %>

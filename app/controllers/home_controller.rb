@@ -25,7 +25,7 @@ class HomeController < ApplicationController
     @dato=Dato.last(50)
     @data=[]
     for i in 0..49
-      @data[i]=[i,@dato[i].enegiaEntrada.to_f]
+      @data[i]=[i,@dato[i].carga.to_f]
     end
     puts(@data[0][1])
     return @data

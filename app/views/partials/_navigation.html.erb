@@ -29,17 +29,13 @@
           </li>
         <% end %>
       <% end %>
-      <li class="col-md">
-        <% if user_signed_in?%>
-          <% if current_user.try(:admin?)%>
-            Noticias
-          <% else %>
-            Noticias
-          <% end %>
-        <% else %>
-        <%=link_to "Ingresar" ,new_user_session_path%>
+
+        <% if !user_signed_in?%>
+          <li class="col-md">
+            <%=link_to "Ingresar" ,new_user_session_path%>
+          </li>
         <% end %>
-      </li>
+
       <% if user_signed_in? %>
         <li class="col-md">
           <%=link_to "Cerrar sesión",destroy_user_session_path, method: :delete%>
