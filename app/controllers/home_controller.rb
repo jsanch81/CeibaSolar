@@ -43,12 +43,17 @@ class HomeController < ApplicationController
 
   end
   def ambiente
-
+    @temperatura = Dato.last().tempeatura.to_f
+    @humedad = Dato.last().humedad.to_f
+    @velocidadViento = Dato.last().windSpeed.to_f
+    @direccionViento = Dato.last().windDir.to_f
+    @presionAtm = Dato.last().presion.to_f
+    @precipitaciones = Dato.last().precipitacion.to_f
   end
 private
 
   def datos_params
-    params.require(:dato).permit(:presion,:tempeatura,:humedad,:carga,:clima,:enegiaEntrada,:energiaSalida)
+    params.require(:dato).permit(:presion,:tempeatura,:humedad,:carga,:clima,:enegiaEntrada,:energiaSalida,:precipitacion,:windSpeed,:windDir)
   end
 
   def admin_params

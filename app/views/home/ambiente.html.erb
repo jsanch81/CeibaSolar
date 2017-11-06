@@ -1,5 +1,56 @@
 
-<h1>Imformacion ambiente</h1>
+<!--<h1>Imformacion ambiente</h1>
 <div name='pop1' id='pop1' style="height: 700; left: 150; position: absolute; top: 50; width: 500;">
 <iframe frameborder="NO" marginheight="0" marginwidth="0" scrolling="YES" src="https://www.myacurite.com/#/dashboard" style="border-color: black; border-style: solid; border-width: 5;" width="1280" height="900"></iframe>
+</div>
+-->
+<div class="contenedor">
+  <div class="div11">
+    <div style="float: left">
+    <h2 style = "color: #033958"> Temperatura </h2>
+    <%if @temperatura >= 20 %>
+    <h1 style = "color: #86898A"> <%=image_tag "tempAlta.png"%><%=@temperatura%>ºC</h1>
+    <% else %>
+    <h1 style = "color: #86898A"> <%=image_tag "tempBaja.png"%><%=@temperatura%>ºC</h1>
+    <%end%>
+    </div>
+    <div style="float: right">
+      <h2 style = "color: #033958"> Humedad </h2>
+      <h1 style = "color: #86898A"> <%=image_tag "humedad.png"%> <%=@humedad%>%</h1>
+    </div>
+  </div>
+  <div class="div22">
+    <div style="float: left">
+      <h2 style = "color: #033958"> Velocidad del viento </h2>
+      <h1 style = "color: #86898A"> <%=image_tag "velocidadViento.png"%> <%=@velocidadViento%> Kph</h1>
+    </div>
+    <div style="float: right">
+      <h2 style = "color: #033958"> Dirección del viento </h2>
+      <h1 style = "color: #86898A"> <%=image_tag "direccionViento.png"%> <%=@direccionViento%>º</h1>
+    </div>
+  </div>
+</div>
+<div class="contenedor">
+  <div class="center-xs div33">
+    <div style = "float: right">
+      <h2 style = "color: #033958"> Presión Atmosferica </h2>
+      <h1 style = "color: #86898A"> <%=image_tag "direccionViento.png"%> <%=@presionAtm%> hPo </h1>
+    </div>
+  </div>
+  <div class="div22">
+    <div class="float: left">
+      <h2 style = "color: #033958"> Precipitación</h2>
+          <%if @precipitaciones < 2.0 %>
+            <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "soleado.png"%> </h1>
+          <% elsif @precipitaciones >2.0 and @precipitaciones <3.5%>
+            <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "parcialmenteNublado.png"%> </h1>
+          <% elsif @precipitaciones >3.4 and @precipitaciones <5.0%>
+            <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "nublado.png"%></h1>
+          <% else %>
+            <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "lluvia.png"%></h1>
+            <%end%>
+    </div>
+  </div>
+
+
 </div>

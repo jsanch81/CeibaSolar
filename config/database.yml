@@ -7,7 +7,7 @@
 default: &default
   adapter: postgresql
   pool: 5
-  username: jsanch
+  username: jsanch81
   password: 9708
   host: localhost
   port: 5432
@@ -16,7 +16,7 @@ development:
   database: ceibasolar
   adapter: postgresql
   pool: 5
-  username: jsanch
+  username: jsanch81
   password: 9708
   host: localhost
 
@@ -27,7 +27,7 @@ test:
   database: ceibasolar
   adapter: postgresql
   pool: 5
-  username: jsanch
+  username: jsanch81
   password: 9708
   host: localhost
   port: 5432
@@ -36,7 +36,7 @@ production:
   database: ceibasolar
   adapter: postgresql
   pool: 5
-  username: jsanch
+  username: jsanch81
   password: 9708
   host: localhost
   port: 5432
