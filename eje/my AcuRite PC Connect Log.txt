@@ -1,0 +1,1819 @@
+AcuRite Log File -- Running Version: 1.0.46 (1)
+2017-11-08+20:51:28 - Timer stopped called from >> requestReport3FromConsole:USBReportDataRouter.
+2017-11-08+20:51:28 - Timer stopped called from >> getReport3:USBReportDataRouter.
+2017-11-08+20:51:36 - FAILED to get part (or all) of Report 3 w/ir error: I/O Timeout
+2017-11-08+20:51:36 - Restarted timers after Report3 processing.
+2017-11-08+20:57:16 - Timer stopped called from >> reconnectDisplayConsole:AppDelegate.
+2017-11-08+21:04:09 - Timer stopped called from >> applicationWillTerminate:AppDelegate.
+2017-11-08+21:36:25 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:36:25 - Raw bytes:01 c4 af 71 00 0c 00 72 03 
+2017-11-08+21:36:25 - x31 Sequence = 5 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 0.000000 Direction = NE  Rain Delta = 0.000000
+2017-11-08+21:36:25 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:36:25 - Report processing is done.
+2017-11-08+21:36:25 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 1 minute 18 seconds)
+2017-11-08+21:36:43 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:36:43 - Raw bytes:01 c4 af 78 00 08 6e 48 03 
+2017-11-08+21:36:43 - x38 Sequence = 6d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:36:43 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:36:43 - Report processing is done.
+2017-11-08+21:36:43 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 1 minute 36 seconds)
+2017-11-08+21:37:01 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:37:01 - Raw bytes:01 c4 af 71 00 0c 00 72 03 
+2017-11-08+21:37:01 - x31 Sequence = 7 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 0.000000 Direction = NE  Rain Delta = 0.000000
+2017-11-08+21:37:01 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:37:01 - Report processing is done.
+2017-11-08+21:37:01 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 1 minute 54 seconds)
+2017-11-08+21:37:19 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:37:19 - Raw bytes:01 c4 af 78 00 08 6e 47 03 
+2017-11-08+21:37:19 - x38 Sequence = 8d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 71d
+2017-11-08+21:37:19 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:37:19 - Report processing is done.
+2017-11-08+21:37:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 2 minutes 12 seconds)
+2017-11-08+21:37:19 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:37:19 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:37:19 - Report processing is done.
+2017-11-08+21:37:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 2 minutes 12 seconds)
+2017-11-08+21:37:37 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:37:37 - Raw bytes:01 c4 af 71 00 0c 00 72 03 
+2017-11-08+21:37:37 - x31 Sequence = 9 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 0.000000 Direction = NE  Rain Delta = 0.000000
+2017-11-08+21:37:37 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:37:37 - Report processing is done.
+2017-11-08+21:37:37 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 2 minutes 30 seconds)
+2017-11-08+21:37:55 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:37:55 - Raw bytes:01 c4 af 78 00 08 6e 47 03 
+2017-11-08+21:37:55 - x38 Sequence = 10d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 71d
+2017-11-08+21:37:55 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:37:55 - Report processing is done.
+2017-11-08+21:37:55 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 2 minutes 48 seconds)
+2017-11-08+21:38:13 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:38:13 - Raw bytes:01 c4 af 71 00 0c 00 72 03 
+2017-11-08+21:38:13 - x31 Sequence = 11 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 0.000000 Direction = NE  Rain Delta = 0.000000
+2017-11-08+21:38:13 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:38:13 - Report processing is done.
+2017-11-08+21:38:13 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 3 minutes 6 seconds)
+2017-11-08+21:38:19 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:38:19 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:38:19 - Report processing is done.
+2017-11-08+21:38:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 3 minutes 12 seconds)
+2017-11-08+21:38:31 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:38:31 - Raw bytes:01 c4 af 78 00 08 6e 47 03 
+2017-11-08+21:38:31 - x38 Sequence = 12d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 71d
+2017-11-08+21:38:31 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:38:31 - Report processing is done.
+2017-11-08+21:38:31 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 3 minutes 24 seconds)
+2017-11-08+21:38:49 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:38:49 - Raw bytes:01 c4 af 71 00 08 00 72 03 
+2017-11-08+21:38:49 - x31 Sequence = 13 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 0.000000 Direction = ENE Rain Delta = 0.000000
+2017-11-08+21:38:49 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:38:49 - Report processing is done.
+2017-11-08+21:38:49 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 3 minutes 42 seconds)
+2017-11-08+21:39:07 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:39:07 - Raw bytes:01 c4 af 78 00 08 6e 48 03 
+2017-11-08+21:39:07 - x38 Sequence = 14d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:39:07 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:39:07 - Report processing is done.
+2017-11-08+21:39:07 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 4 minutes )
+2017-11-08+21:39:19 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:39:19 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:39:19 - Report processing is done.
+2017-11-08+21:39:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 4 minutes 12 seconds)
+2017-11-08+21:39:25 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:39:25 - Raw bytes:01 c4 af 71 00 0a 00 72 03 
+2017-11-08+21:39:25 - x31 Sequence = 15 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 0.000000 Direction =  E  Rain Delta = 0.000000
+2017-11-08+21:39:25 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:39:25 - Report processing is done.
+2017-11-08+21:39:25 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 4 minutes 18 seconds)
+2017-11-08+21:39:43 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:39:43 - Raw bytes:01 c4 af 78 00 08 6e 49 03 
+2017-11-08+21:39:43 - x38 Sequence = 16d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 73d
+2017-11-08+21:39:43 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:39:43 - Report processing is done.
+2017-11-08+21:39:43 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 4 minutes 36 seconds)
+2017-11-08+21:40:01 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:40:01 - Raw bytes:01 c4 af 71 00 08 00 72 03 
+2017-11-08+21:40:01 - x31 Sequence = 17 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 0.000000 Direction = ENE Rain Delta = 0.000000
+2017-11-08+21:40:01 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:40:01 - Report processing is done.
+2017-11-08+21:40:01 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 4 minutes 54 seconds)
+2017-11-08+21:40:19 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:40:19 - Raw bytes:01 c4 af 78 00 08 6e 49 03 
+2017-11-08+21:40:19 - x38 Sequence = 18d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 73d
+2017-11-08+21:40:19 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:40:19 - Report processing is done.
+2017-11-08+21:40:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 5 minutes 12 seconds)
+2017-11-08+21:40:19 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:40:19 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:40:19 - Report processing is done.
+2017-11-08+21:40:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 5 minutes 12 seconds)
+2017-11-08+21:40:37 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:40:37 - Raw bytes:01 c4 af 71 00 08 00 72 03 
+2017-11-08+21:40:37 - x31 Sequence = 19 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 0.000000 Direction = ENE Rain Delta = 0.000000
+2017-11-08+21:40:37 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:40:37 - Report processing is done.
+2017-11-08+21:40:37 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 5 minutes 30 seconds)
+2017-11-08+21:40:55 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:40:55 - Raw bytes:01 c4 af 78 00 08 6e 49 03 
+2017-11-08+21:40:55 - x38 Sequence = 20d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 73d
+2017-11-08+21:40:55 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:40:55 - Report processing is done.
+2017-11-08+21:40:55 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 5 minutes 48 seconds)
+2017-11-08+21:41:13 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:41:13 - Raw bytes:01 c4 af 71 00 0c 00 72 03 
+2017-11-08+21:41:13 - x31 Sequence = 21 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 0.000000 Direction = NE  Rain Delta = 0.000000
+2017-11-08+21:41:13 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:41:13 - Report processing is done.
+2017-11-08+21:41:13 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 6 minutes 6 seconds)
+2017-11-08+21:41:19 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:41:19 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:41:19 - Report processing is done.
+2017-11-08+21:41:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 6 minutes 12 seconds)
+2017-11-08+21:41:31 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:41:31 - Raw bytes:01 c4 af 78 00 08 6e 49 03 
+2017-11-08+21:41:31 - x38 Sequence = 22d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 73d
+2017-11-08+21:41:31 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:41:31 - Report processing is done.
+2017-11-08+21:41:31 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 6 minutes 24 seconds)
+2017-11-08+21:41:49 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:41:49 - Raw bytes:01 c4 af 78 00 08 6e 49 03 
+2017-11-08+21:41:49 - x38 Sequence = 23d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 73d
+2017-11-08+21:41:49 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:41:49 - Report processing is done.
+2017-11-08+21:41:49 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 6 minutes 42 seconds)
+2017-11-08+21:42:07 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:42:07 - Raw bytes:01 c4 af 78 00 08 6e 49 03 
+2017-11-08+21:42:07 - x38 Sequence = 24d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 0.000000d Outdoor Temp = 73.400002d Outdoor Hum = 73d
+2017-11-08+21:42:07 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:42:07 - Report processing is done.
+2017-11-08+21:42:07 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 7 minutes )
+2017-11-08+21:42:19 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:42:19 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:42:19 - Report processing is done.
+2017-11-08+21:42:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 7 minutes 12 seconds)
+2017-11-08+21:42:25 - HandleWSReportEvents() received data: ƒØxhnHˇ
+2017-11-08+21:42:25 - Raw bytes:01 c4 af 78 01 68 6e 48 03 
+2017-11-08+21:42:25 - x38 Sequence = 25d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 7.829150d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:42:25 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:42:25 - Report processing is done.
+2017-11-08+21:42:25 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 7 minutes 18 seconds)
+2017-11-08+21:42:43 - HandleWSReportEvents() received data: ƒØxhnH
+2017-11-08+21:42:43 - Raw bytes:01 c4 af 78 01 68 6e 48 03 
+2017-11-08+21:42:43 - x38 Sequence = 26d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 7.829150d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:42:43 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:42:43 - Report processing is done.
+2017-11-08+21:42:43 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 7 minutes 36 seconds)
+2017-11-08+21:43:01 - HandleWSReportEvents() received data: ƒØxxnHˇ
+2017-11-08+21:43:01 - Raw bytes:01 c4 af 78 01 78 6e 48 03 
+2017-11-08+21:43:01 - x38 Sequence = 27d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 8.343637d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:43:01 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:43:01 - Report processing is done.
+2017-11-08+21:43:01 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 7 minutes 54 seconds)
+2017-11-08+21:43:19 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:43:19 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:43:19 - Report processing is done.
+2017-11-08+21:43:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 8 minutes 12 seconds)
+2017-11-08+21:43:19 - HandleWSReportEvents() received data: ƒØqT
+2017-11-08+21:43:19 - Raw bytes:01 c4 af 71 01 54 00 72 03 
+2017-11-08+21:43:19 - x31 Sequence = 28 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 7.314663 Direction = NNW Rain Delta = 0.000000
+2017-11-08+21:43:19 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:43:19 - Report processing is done.
+2017-11-08+21:43:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 8 minutes 12 seconds)
+2017-11-08+21:43:37 - HandleWSReportEvents() received data: ƒØxHnHˇ
+2017-11-08+21:43:37 - Raw bytes:01 c4 af 78 01 48 6e 48 03 
+2017-11-08+21:43:37 - x38 Sequence = 29d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 6.800176d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:43:37 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:43:37 - Report processing is done.
+2017-11-08+21:43:37 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 8 minutes 30 seconds)
+2017-11-08+21:43:55 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:43:55 - Raw bytes:01 c4 af 71 01 03 00 72 03 
+2017-11-08+21:43:55 - x31 Sequence = 30 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.742229 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:43:55 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:43:55 - Report processing is done.
+2017-11-08+21:43:55 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 8 minutes 48 seconds)
+2017-11-08+21:44:13 - HandleWSReportEvents() received data: ƒØxnHˇ
+2017-11-08+21:44:13 - Raw bytes:01 c4 af 78 01 18 6e 48 03 
+2017-11-08+21:44:13 - x38 Sequence = 31d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 5.256715d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:44:13 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:44:13 - Report processing is done.
+2017-11-08+21:44:13 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 9 minutes 6 seconds)
+2017-11-08+21:44:19 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:44:19 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:44:19 - Report processing is done.
+2017-11-08+21:44:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 9 minutes 12 seconds)
+2017-11-08+21:44:31 - HandleWSReportEvents() received data: ƒØq!
+2017-11-08+21:44:31 - Raw bytes:01 c4 af 71 01 21 00 72 03 
+2017-11-08+21:44:31 - x31 Sequence = 32 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 5.771202 Direction = WSW Rain Delta = 0.000000
+2017-11-08+21:44:31 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:44:31 - Report processing is done.
+2017-11-08+21:44:31 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 9 minutes 24 seconds)
+2017-11-08+21:44:49 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:44:49 - Raw bytes:01 c4 af 78 00 78 6e 48 03 
+2017-11-08+21:44:49 - x38 Sequence = 33d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 4.227741d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:44:49 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:44:49 - Report processing is done.
+2017-11-08+21:44:49 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 9 minutes 42 seconds)
+2017-11-08+21:45:07 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:45:07 - Raw bytes:01 c4 af 78 00 78 6e 48 03 
+2017-11-08+21:45:07 - x38 Sequence = 34d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 4.227741d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:45:07 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:45:07 - Report processing is done.
+2017-11-08+21:45:07 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 10 minutes )
+2017-11-08+21:45:19 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:45:19 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:45:19 - Report processing is done.
+2017-11-08+21:45:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 10 minutes 12 seconds)
+2017-11-08+21:45:25 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:45:25 - Raw bytes:01 c4 af 78 00 78 6e 48 02 
+2017-11-08+21:45:25 - x38 Sequence = 35d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 512d Gust = 4.227741d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:45:25 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:45:25 - Report processing is done.
+2017-11-08+21:45:25 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 10 minutes 18 seconds)
+2017-11-08+21:45:43 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:45:43 - Raw bytes:01 c4 af 71 01 03 00 72 03 
+2017-11-08+21:45:43 - x31 Sequence = 36 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.742229 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:45:43 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:45:43 - Report processing is done.
+2017-11-08+21:45:43 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 10 minutes 36 seconds)
+2017-11-08+21:46:01 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:46:01 - Raw bytes:01 c4 af 71 01 03 00 72 02 
+2017-11-08+21:46:01 - x31 Sequence = 37 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 4.742229 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:46:01 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:46:01 - Report processing is done.
+2017-11-08+21:46:01 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 10 minutes 54 seconds)
+2017-11-08+21:46:19 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:46:19 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:46:19 - Report processing is done.
+2017-11-08+21:46:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 11 minutes 12 seconds)
+2017-11-08+21:46:19 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:46:19 - Raw bytes:01 c4 af 71 01 03 00 72 01 
+2017-11-08+21:46:19 - x31 Sequence = 38 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 4.742229 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:46:19 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:46:19 - Report processing is done.
+2017-11-08+21:46:19 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 11 minutes 12 seconds)
+2017-11-08+21:46:37 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:46:37 - Raw bytes:01 c4 af 71 01 03 00 72 02 
+2017-11-08+21:46:37 - x31 Sequence = 39 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 4.742229 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:46:37 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:46:37 - Report processing is done.
+2017-11-08+21:46:37 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 11 minutes 30 seconds)
+2017-11-08+21:46:55 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:46:55 - Raw bytes:01 c4 af 71 01 03 00 72 01 
+2017-11-08+21:46:55 - x31 Sequence = 40 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 4.742229 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:46:55 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:46:55 - Report processing is done.
+2017-11-08+21:46:55 - Next scheduled Report 3 at 2017-11-08 16:47:07 (Time since last report: 11 minutes 48 seconds)
+2017-11-08+21:47:13 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:47:13 - Raw bytes:01 c4 af 71 01 03 00 72 00 
+2017-11-08+21:47:13 - x31 Sequence = 41 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.742229 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:47:13 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:47:13 - Report processing is done.
+2017-11-08+21:47:13 - Now requesting a Report 3 per user-defined schedule.
+2017-11-08+21:47:13 - Timer stopped called from >> requestReport3FromConsole:USBReportDataRouter.
+2017-11-08+21:47:13 - Timer stopped called from >> getReport3:USBReportDataRouter.
+2017-11-08+21:47:14 - report3Requested -- timers killed.
+2017-11-08+21:47:14 - Report 3 RID6End.checksum SUCCESS
+2017-11-08+21:47:14 - Report 3 RID6End.checksum OK
+2017-11-08+21:47:14 - Report 3 IsComplete = YES
+2017-11-08+21:47:14 - Report 3: After updateGUI (twice)
+2017-11-08+21:47:14 - Report 3: rid4Records.Length = 1
+2017-11-08+21:47:14 - Report 3: After define pathName='/Users/josesanchez/CeibaSolar/eje' and fileName='acuriteweather.CSV'
+2017-11-08+21:47:14 - Report 3: Starting to process rid4Records records...
+2017-11-08+21:47:14 - RIDs to process: 1
+2017-11-08+21:47:14 - Report 3: rid4Record.checksum is OK
+2017-11-08+21:47:14 - Report 3: After creating the new appended CSV file + header text if required
+2017-11-08+21:47:14 - Report 3: After appending a row to the CSV file
+2017-11-08+21:47:14 - >>>>>>>> Adding CSV2 lines to csv file: "2017-11-08+16:47:14","23.0","  71","17.0","24.0","23.0","1014.00","  0.25","  0.00"," 1.9","  3.00"," 45.00","  25.0","    56"
+
+2017-11-08+21:47:14 - Report 3: Done processing rid4Records records; data was saved to file 'acuriteweather.CSV'
+2017-11-08+21:47:14 - Clean up the RID4 and RID_4 made in REPORT3
+2017-11-08+21:47:14 - Report processing is done.
+2017-11-08+21:47:14 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 7 seconds)
+2017-11-08+21:47:14 - Restarted timers after Report3 processing.
+2017-11-08+21:47:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:47:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:47:20 - Report processing is done.
+2017-11-08+21:47:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 13 seconds)
+2017-11-08+21:47:32 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:47:32 - Raw bytes:01 c4 af 78 00 78 6e 48 01 
+2017-11-08+21:47:32 - x38 Sequence = 42d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 4.227741d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:47:32 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:47:32 - Report processing is done.
+2017-11-08+21:47:32 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 25 seconds)
+2017-11-08+21:47:50 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:47:50 - Raw bytes:01 c4 af 71 01 03 00 72 02 
+2017-11-08+21:47:50 - x31 Sequence = 43 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 4.742229 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:47:50 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:47:50 - Report processing is done.
+2017-11-08+21:47:50 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 43 seconds)
+2017-11-08+21:48:08 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:48:08 - Raw bytes:01 c4 af 78 00 68 6e 48 03 
+2017-11-08+21:48:08 - x38 Sequence = 44d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 3.713254d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:48:08 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:48:08 - Report processing is done.
+2017-11-08+21:48:08 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 1 minute 1 second)
+2017-11-08+21:48:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 69 90  843.2
+2017-11-08+21:48:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:48:20 - Report processing is done.
+2017-11-08+21:48:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 1 minute 13 seconds)
+2017-11-08+21:48:26 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:48:26 - Raw bytes:01 c4 af 71 00 50 00 72 03 
+2017-11-08+21:48:26 - x31 Sequence = 45 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 3.198767 Direction = NW  Rain Delta = 0.000000
+2017-11-08+21:48:26 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:48:26 - Report processing is done.
+2017-11-08+21:48:26 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 1 minute 19 seconds)
+2017-11-08+21:48:44 - HandleWSReportEvents() received data: ƒØxnHˇ
+2017-11-08+21:48:44 - Raw bytes:01 c4 af 78 01 18 6e 48 03 
+2017-11-08+21:48:44 - x38 Sequence = 46d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 5.256715d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:48:44 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:48:44 - Report processing is done.
+2017-11-08+21:48:44 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 1 minute 37 seconds)
+2017-11-08+21:49:02 - HandleWSReportEvents() received data: ƒØq3
+2017-11-08+21:49:02 - Raw bytes:01 c4 af 71 01 33 00 72 03 
+2017-11-08+21:49:02 - x31 Sequence = 47 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 6.285689 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:49:02 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:49:02 - Report processing is done.
+2017-11-08+21:49:02 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 1 minute 55 seconds)
+2017-11-08+21:49:20 - HandleWSReportEvents() received data: ƒØx8nHˇ
+2017-11-08+21:49:20 - Raw bytes:01 c4 af 78 01 38 6e 48 03 
+2017-11-08+21:49:20 - x38 Sequence = 48d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 6.285689d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:49:20 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:49:20 - Report processing is done.
+2017-11-08+21:49:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 2 minutes 13 seconds)
+2017-11-08+21:49:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:49:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:49:20 - Report processing is done.
+2017-11-08+21:49:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 2 minutes 13 seconds)
+2017-11-08+21:49:38 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:49:38 - Raw bytes:01 c4 af 71 00 73 00 72 03 
+2017-11-08+21:49:38 - x31 Sequence = 49 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:49:38 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:49:38 - Report processing is done.
+2017-11-08+21:49:38 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 2 minutes 31 seconds)
+2017-11-08+21:49:56 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:49:56 - Raw bytes:01 c4 af 71 00 73 00 72 03 
+2017-11-08+21:49:56 - x31 Sequence = 50 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:49:56 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:49:56 - Report processing is done.
+2017-11-08+21:49:56 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 2 minutes 49 seconds)
+2017-11-08+21:50:14 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:50:14 - Raw bytes:01 c4 af 78 00 78 6e 48 03 
+2017-11-08+21:50:14 - x38 Sequence = 51d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 4.227741d Outdoor Temp = 73.400002d Outdoor Hum = 72d
+2017-11-08+21:50:14 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:50:14 - Report processing is done.
+2017-11-08+21:50:14 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 3 minutes 7 seconds)
+2017-11-08+21:50:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:50:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:50:20 - Report processing is done.
+2017-11-08+21:50:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 3 minutes 13 seconds)
+2017-11-08+21:50:32 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:50:32 - Raw bytes:01 c4 af 71 01 03 00 72 03 
+2017-11-08+21:50:32 - x31 Sequence = 52 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.742229 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:50:32 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:50:32 - Report processing is done.
+2017-11-08+21:50:32 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 3 minutes 25 seconds)
+2017-11-08+21:50:50 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:50:50 - Raw bytes:01 c4 af 71 01 03 00 72 03 
+2017-11-08+21:50:50 - x31 Sequence = 53 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.742229 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:50:50 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:50:50 - Report processing is done.
+2017-11-08+21:50:50 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 3 minutes 43 seconds)
+2017-11-08+21:51:08 - HandleWSReportEvents() received data: ƒØq"
+2017-11-08+21:51:08 - Raw bytes:01 c4 af 71 01 22 00 72 03 
+2017-11-08+21:51:08 - x31 Sequence = 54 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 5.771202 Direction = WNW Rain Delta = 0.000000
+2017-11-08+21:51:08 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:51:08 - Report processing is done.
+2017-11-08+21:51:08 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 4 minutes 1 second)
+2017-11-08+21:51:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:51:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:51:20 - Report processing is done.
+2017-11-08+21:51:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 4 minutes 13 seconds)
+2017-11-08+21:51:26 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:51:26 - Raw bytes:01 c4 af 78 00 78 6c 48 03 
+2017-11-08+21:51:26 - x38 Sequence = 55d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 4.227741d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+21:51:26 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:51:26 - Report processing is done.
+2017-11-08+21:51:26 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 4 minutes 19 seconds)
+2017-11-08+21:51:44 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:51:44 - Raw bytes:01 c4 af 71 01 1f 00 72 03 
+2017-11-08+21:51:44 - x31 Sequence = 56 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 5.256715 Direction =  S  Rain Delta = 0.000000
+2017-11-08+21:51:44 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:51:44 - Report processing is done.
+2017-11-08+21:51:44 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 4 minutes 37 seconds)
+2017-11-08+21:52:02 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:52:02 - Raw bytes:01 c4 af 71 01 1f 00 72 03 
+2017-11-08+21:52:02 - x31 Sequence = 57 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 5.256715 Direction =  S  Rain Delta = 0.000000
+2017-11-08+21:52:02 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:52:02 - Report processing is done.
+2017-11-08+21:52:02 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 4 minutes 55 seconds)
+2017-11-08+21:52:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:52:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:52:20 - Report processing is done.
+2017-11-08+21:52:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 5 minutes 13 seconds)
+2017-11-08+21:52:20 - HandleWSReportEvents() received data: ƒØqM
+2017-11-08+21:52:20 - Raw bytes:01 c4 af 71 01 4d 00 72 03 
+2017-11-08+21:52:20 - x31 Sequence = 58 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 6.800176 Direction = SSE Rain Delta = 0.000000
+2017-11-08+21:52:20 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:52:20 - Report processing is done.
+2017-11-08+21:52:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 5 minutes 13 seconds)
+2017-11-08+21:52:38 - HandleWSReportEvents() received data: ƒØqM
+2017-11-08+21:52:38 - Raw bytes:01 c4 af 71 01 4d 00 72 03 
+2017-11-08+21:52:38 - x31 Sequence = 59 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 6.800176 Direction = SSE Rain Delta = 0.000000
+2017-11-08+21:52:38 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:52:38 - Report processing is done.
+2017-11-08+21:52:38 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 5 minutes 31 seconds)
+2017-11-08+21:52:56 - HandleWSReportEvents() received data: ƒØqM
+2017-11-08+21:52:56 - Raw bytes:01 c4 af 71 01 4d 00 72 02 
+2017-11-08+21:52:56 - x31 Sequence = 60 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 6.800176 Direction = SSE Rain Delta = 0.000000
+2017-11-08+21:52:56 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:52:56 - Report processing is done.
+2017-11-08+21:52:56 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 5 minutes 49 seconds)
+2017-11-08+21:53:14 - HandleWSReportEvents() received data: ƒØqM
+2017-11-08+21:53:14 - Raw bytes:01 c4 af 71 01 4d 00 72 01 
+2017-11-08+21:53:14 - x31 Sequence = 61 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 6.800176 Direction = SSE Rain Delta = 0.000000
+2017-11-08+21:53:14 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:53:14 - Report processing is done.
+2017-11-08+21:53:14 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 6 minutes 7 seconds)
+2017-11-08+21:53:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:53:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:53:20 - Report processing is done.
+2017-11-08+21:53:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 6 minutes 13 seconds)
+2017-11-08+21:53:32 - HandleWSReportEvents() received data: ƒØqM
+2017-11-08+21:53:32 - Raw bytes:01 c4 af 71 01 4d 00 72 00 
+2017-11-08+21:53:32 - x31 Sequence = 62 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 6.800176 Direction = SSE Rain Delta = 0.000000
+2017-11-08+21:53:33 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:53:33 - Report processing is done.
+2017-11-08+21:53:33 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 6 minutes 25 seconds)
+2017-11-08+21:53:50 - HandleWSReportEvents() received data: ƒØqM
+2017-11-08+21:53:50 - Raw bytes:01 c4 af 71 01 4d 00 72 00 
+2017-11-08+21:53:50 - x31 Sequence = 63 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 6.800176 Direction = SSE Rain Delta = 0.000000
+2017-11-08+21:53:50 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:53:50 - Report processing is done.
+2017-11-08+21:53:50 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 6 minutes 43 seconds)
+2017-11-08+21:54:08 - HandleWSReportEvents() received data: ƒØqM
+2017-11-08+21:54:08 - Raw bytes:01 c4 af 71 01 4d 00 72 00 
+2017-11-08+21:54:08 - x31 Sequence = 64 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 6.800176 Direction = SSE Rain Delta = 0.000000
+2017-11-08+21:54:08 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:54:08 - Report processing is done.
+2017-11-08+21:54:08 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 7 minutes 1 second)
+2017-11-08+21:54:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:54:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:54:20 - Report processing is done.
+2017-11-08+21:54:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 7 minutes 13 seconds)
+2017-11-08+21:54:26 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:54:26 - Raw bytes:01 c4 af 78 00 78 6a 48 01 
+2017-11-08+21:54:26 - x38 Sequence = 65d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 4.227741d Outdoor Temp = 73.000000d Outdoor Hum = 72d
+2017-11-08+21:54:26 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:54:26 - Report processing is done.
+2017-11-08+21:54:26 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 7 minutes 19 seconds)
+2017-11-08+21:54:44 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:54:44 - Raw bytes:01 c4 af 71 00 74 00 72 02 
+2017-11-08+21:54:44 - x31 Sequence = 66 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 4.227741 Direction = NNW Rain Delta = 0.000000
+2017-11-08+21:54:44 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:54:44 - Report processing is done.
+2017-11-08+21:54:44 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 7 minutes 37 seconds)
+2017-11-08+21:55:02 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:55:02 - Raw bytes:01 c4 af 78 00 58 6a 48 03 
+2017-11-08+21:55:02 - x38 Sequence = 67d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 3.198767d Outdoor Temp = 73.000000d Outdoor Hum = 72d
+2017-11-08+21:55:02 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:55:02 - Report processing is done.
+2017-11-08+21:55:02 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 7 minutes 55 seconds)
+2017-11-08+21:55:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:55:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:55:20 - Report processing is done.
+2017-11-08+21:55:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 8 minutes 13 seconds)
+2017-11-08+21:55:20 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:55:20 - Raw bytes:01 c4 af 71 00 43 00 72 03 
+2017-11-08+21:55:20 - x31 Sequence = 68 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:55:20 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:55:20 - Report processing is done.
+2017-11-08+21:55:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 8 minutes 13 seconds)
+2017-11-08+21:55:38 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:55:38 - Raw bytes:01 c4 af 78 00 58 6a 48 03 
+2017-11-08+21:55:38 - x38 Sequence = 69d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 3.198767d Outdoor Temp = 73.000000d Outdoor Hum = 72d
+2017-11-08+21:55:38 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:55:38 - Report processing is done.
+2017-11-08+21:55:38 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 8 minutes 31 seconds)
+2017-11-08+21:55:56 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:55:56 - Raw bytes:01 c4 af 78 00 58 6a 48 03 
+2017-11-08+21:55:56 - x38 Sequence = 70d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 3.198767d Outdoor Temp = 73.000000d Outdoor Hum = 72d
+2017-11-08+21:55:56 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:55:56 - Report processing is done.
+2017-11-08+21:55:56 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 8 minutes 49 seconds)
+2017-11-08+21:56:14 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:56:14 - Raw bytes:01 c4 af 78 00 48 6a 48 03 
+2017-11-08+21:56:14 - x38 Sequence = 71d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 2.684280d Outdoor Temp = 73.000000d Outdoor Hum = 72d
+2017-11-08+21:56:14 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:56:14 - Report processing is done.
+2017-11-08+21:56:14 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 9 minutes 7 seconds)
+2017-11-08+21:56:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:56:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:56:20 - Report processing is done.
+2017-11-08+21:56:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 9 minutes 13 seconds)
+2017-11-08+21:56:32 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:56:32 - Raw bytes:01 c4 af 71 00 53 00 72 03 
+2017-11-08+21:56:32 - x31 Sequence = 72 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 3.198767 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:56:32 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:56:32 - Report processing is done.
+2017-11-08+21:56:32 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 9 minutes 25 seconds)
+2017-11-08+21:56:50 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:56:50 - Raw bytes:01 c4 af 71 00 53 00 72 03 
+2017-11-08+21:56:50 - x31 Sequence = 73 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 3.198767 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:56:50 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:56:50 - Report processing is done.
+2017-11-08+21:56:50 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 9 minutes 43 seconds)
+2017-11-08+21:57:08 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:57:08 - Raw bytes:01 c4 af 71 00 43 00 72 03 
+2017-11-08+21:57:08 - x31 Sequence = 74 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:57:08 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:57:08 - Report processing is done.
+2017-11-08+21:57:08 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 10 minutes 1 second)
+2017-11-08+21:57:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:57:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:57:20 - Report processing is done.
+2017-11-08+21:57:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 10 minutes 13 seconds)
+2017-11-08+21:57:26 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:57:26 - Raw bytes:01 c4 af 71 00 43 00 72 03 
+2017-11-08+21:57:26 - x31 Sequence = 75 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction =  W  Rain Delta = 0.000000
+2017-11-08+21:57:26 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:57:26 - Report processing is done.
+2017-11-08+21:57:26 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 10 minutes 19 seconds)
+2017-11-08+21:57:44 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:57:44 - Raw bytes:01 c4 af 78 00 38 6a 48 03 
+2017-11-08+21:57:44 - x38 Sequence = 76d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 2.169793d Outdoor Temp = 73.000000d Outdoor Hum = 72d
+2017-11-08+21:57:44 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:57:44 - Report processing is done.
+2017-11-08+21:57:44 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 10 minutes 37 seconds)
+2017-11-08+21:58:02 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:58:02 - Raw bytes:01 c4 af 71 00 4c 00 72 03 
+2017-11-08+21:58:02 - x31 Sequence = 77 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+21:58:02 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:58:02 - Report processing is done.
+2017-11-08+21:58:02 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 10 minutes 55 seconds)
+2017-11-08+21:58:20 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:58:20 - Raw bytes:01 c4 af 78 00 38 6c 48 03 
+2017-11-08+21:58:20 - x38 Sequence = 78d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 2.169793d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+21:58:20 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:58:20 - Report processing is done.
+2017-11-08+21:58:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 11 minutes 13 seconds)
+2017-11-08+21:58:20 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:58:20 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:58:20 - Report processing is done.
+2017-11-08+21:58:20 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 11 minutes 13 seconds)
+2017-11-08+21:58:38 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:58:38 - Raw bytes:01 c4 af 71 00 24 00 72 03 
+2017-11-08+21:58:38 - x31 Sequence = 79 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 1.655306 Direction = NNW Rain Delta = 0.000000
+2017-11-08+21:58:38 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:58:38 - Report processing is done.
+2017-11-08+21:58:38 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 11 minutes 31 seconds)
+2017-11-08+21:58:56 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:58:56 - Raw bytes:01 c4 af 71 00 24 00 72 03 
+2017-11-08+21:58:56 - x31 Sequence = 80 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 1.655306 Direction = NNW Rain Delta = 0.000000
+2017-11-08+21:58:56 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:58:56 - Report processing is done.
+2017-11-08+21:58:56 - Next scheduled Report 3 at 2017-11-08 16:59:07 (Time since last report: 11 minutes 49 seconds)
+2017-11-08+21:59:14 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:59:14 - Raw bytes:01 c4 af 71 00 24 00 72 02 
+2017-11-08+21:59:14 - x31 Sequence = 81 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 1.655306 Direction = NNW Rain Delta = 0.000000
+2017-11-08+21:59:14 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:59:14 - Report processing is done.
+2017-11-08+21:59:14 - Now requesting a Report 3 per user-defined schedule.
+2017-11-08+21:59:14 - Timer stopped called from >> requestReport3FromConsole:USBReportDataRouter.
+2017-11-08+21:59:14 - Timer stopped called from >> getReport3:USBReportDataRouter.
+2017-11-08+21:59:15 - report3Requested -- timers killed.
+2017-11-08+21:59:15 - Report 3 RID6End.checksum SUCCESS
+2017-11-08+21:59:15 - Report 3 RID6End.checksum OK
+2017-11-08+21:59:15 - Report 3 IsComplete = YES
+2017-11-08+21:59:15 - Report 3: After updateGUI (twice)
+2017-11-08+21:59:15 - Report 3: rid4Records.Length = 1
+2017-11-08+21:59:15 - Report 3: After define pathName='/Users/josesanchez/CeibaSolar/eje' and fileName='acuriteweather.CSV'
+2017-11-08+21:59:15 - Report 3: Starting to process rid4Records records...
+2017-11-08+21:59:15 - RIDs to process: 1
+2017-11-08+21:59:15 - Report 3: rid4Record.checksum is OK
+2017-11-08+21:59:15 - Report 3: After creating the new appended CSV file + header text if required
+2017-11-08+21:59:15 - Report 3: After appending a row to the CSV file
+2017-11-08+21:59:16 - >>>>>>>> Adding CSV2 lines to csv file: "2017-11-08+16:59:15","23.0","  72","18.0","24.0","23.0","1014.00","  0.25","  5.00"," 7.0"," 13.00","315.00","  25.0","    54"
+
+2017-11-08+21:59:16 - Report 3: Done processing rid4Records records; data was saved to file 'acuriteweather.CSV'
+2017-11-08+21:59:16 - Clean up the RID4 and RID_4 made in REPORT3
+2017-11-08+21:59:16 - Report processing is done.
+2017-11-08+21:59:16 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 8 seconds)
+2017-11-08+21:59:16 - Restarted timers after Report3 processing.
+2017-11-08+21:59:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+21:59:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+21:59:22 - Report processing is done.
+2017-11-08+21:59:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 14 seconds)
+2017-11-08+21:59:34 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+21:59:34 - Raw bytes:01 c4 af 78 00 28 6c 49 03 
+2017-11-08+21:59:34 - x38 Sequence = 82d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 1.655306d Outdoor Temp = 73.199997d Outdoor Hum = 73d
+2017-11-08+21:59:34 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+21:59:34 - Report processing is done.
+2017-11-08+21:59:34 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 26 seconds)
+2017-11-08+21:59:52 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+21:59:52 - Raw bytes:01 c4 af 71 00 28 00 72 03 
+2017-11-08+21:59:52 - x31 Sequence = 83 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 1.655306 Direction = ENE Rain Delta = 0.000000
+2017-11-08+21:59:52 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+21:59:52 - Report processing is done.
+2017-11-08+21:59:52 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 44 seconds)
+2017-11-08+22:00:10 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:00:10 - Raw bytes:01 c4 af 78 00 28 6c 49 03 
+2017-11-08+22:00:10 - x38 Sequence = 84d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 1.655306d Outdoor Temp = 73.199997d Outdoor Hum = 73d
+2017-11-08+22:00:10 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:00:10 - Report processing is done.
+2017-11-08+22:00:10 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 1 minute 2 seconds)
+2017-11-08+22:00:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 75 90  843.3
+2017-11-08+22:00:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:00:22 - Report processing is done.
+2017-11-08+22:00:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 1 minute 14 seconds)
+2017-11-08+22:00:28 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:00:28 - Raw bytes:01 c4 af 71 00 22 00 72 03 
+2017-11-08+22:00:28 - x31 Sequence = 85 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 1.655306 Direction = WNW Rain Delta = 0.000000
+2017-11-08+22:00:28 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:00:28 - Report processing is done.
+2017-11-08+22:00:28 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 1 minute 20 seconds)
+2017-11-08+22:00:46 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:00:46 - Raw bytes:01 c4 af 71 00 22 00 72 03 
+2017-11-08+22:00:46 - x31 Sequence = 86 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 1.655306 Direction = WNW Rain Delta = 0.000000
+2017-11-08+22:00:46 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:00:46 - Report processing is done.
+2017-11-08+22:00:46 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 1 minute 38 seconds)
+2017-11-08+22:01:04 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:01:04 - Raw bytes:01 c4 af 71 00 52 00 72 03 
+2017-11-08+22:01:04 - x31 Sequence = 87 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 3.198767 Direction = WNW Rain Delta = 0.000000
+2017-11-08+22:01:04 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:01:04 - Report processing is done.
+2017-11-08+22:01:04 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 1 minute 56 seconds)
+2017-11-08+22:01:22 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:01:22 - Raw bytes:01 c4 af 78 00 48 6c 48 03 
+2017-11-08+22:01:22 - x38 Sequence = 88d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:01:22 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:01:22 - Report processing is done.
+2017-11-08+22:01:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 2 minutes 14 seconds)
+2017-11-08+22:01:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:01:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:01:22 - Report processing is done.
+2017-11-08+22:01:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 2 minutes 14 seconds)
+2017-11-08+22:01:40 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:01:40 - Raw bytes:01 c4 af 71 00 53 00 72 03 
+2017-11-08+22:01:40 - x31 Sequence = 89 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 3.198767 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:01:40 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:01:40 - Report processing is done.
+2017-11-08+22:01:40 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 2 minutes 32 seconds)
+2017-11-08+22:01:58 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:01:58 - Raw bytes:01 c4 af 78 00 58 6c 48 03 
+2017-11-08+22:01:58 - x38 Sequence = 90d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 3.198767d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:01:58 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:01:58 - Report processing is done.
+2017-11-08+22:01:58 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 2 minutes 50 seconds)
+2017-11-08+22:02:16 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:02:16 - Raw bytes:01 c4 af 78 00 58 6c 48 03 
+2017-11-08+22:02:16 - x38 Sequence = 91d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 3.198767d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:02:16 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:02:16 - Report processing is done.
+2017-11-08+22:02:16 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 3 minutes 8 seconds)
+2017-11-08+22:02:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:02:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:02:22 - Report processing is done.
+2017-11-08+22:02:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 3 minutes 14 seconds)
+2017-11-08+22:02:34 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:02:34 - Raw bytes:01 c4 af 78 00 58 6c 48 02 
+2017-11-08+22:02:34 - x38 Sequence = 92d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 512d Gust = 3.198767d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:02:34 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:02:34 - Report processing is done.
+2017-11-08+22:02:34 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 3 minutes 26 seconds)
+2017-11-08+22:02:52 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:02:52 - Raw bytes:01 c4 af 71 00 73 00 72 03 
+2017-11-08+22:02:52 - x31 Sequence = 93 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:02:52 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:02:52 - Report processing is done.
+2017-11-08+22:02:52 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 3 minutes 44 seconds)
+2017-11-08+22:03:10 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:03:10 - Raw bytes:01 c4 af 78 00 48 6c 48 03 
+2017-11-08+22:03:10 - x38 Sequence = 94d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:03:10 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:03:10 - Report processing is done.
+2017-11-08+22:03:10 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 4 minutes 2 seconds)
+2017-11-08+22:03:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:03:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:03:22 - Report processing is done.
+2017-11-08+22:03:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 4 minutes 14 seconds)
+2017-11-08+22:03:28 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:03:28 - Raw bytes:01 c4 af 78 00 48 6c 48 03 
+2017-11-08+22:03:28 - x38 Sequence = 95d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:03:28 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:03:28 - Report processing is done.
+2017-11-08+22:03:28 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 4 minutes 20 seconds)
+2017-11-08+22:03:46 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:03:46 - Raw bytes:01 c4 af 78 00 48 6c 48 03 
+2017-11-08+22:03:46 - x38 Sequence = 96d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:03:46 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:03:46 - Report processing is done.
+2017-11-08+22:03:46 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 4 minutes 38 seconds)
+2017-11-08+22:04:04 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:04:04 - Raw bytes:01 c4 af 71 00 3c 00 72 03 
+2017-11-08+22:04:04 - x31 Sequence = 97 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.169793 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:04:04 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:04:04 - Report processing is done.
+2017-11-08+22:04:04 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 4 minutes 56 seconds)
+2017-11-08+22:04:22 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:04:22 - Raw bytes:01 c4 af 78 00 48 6c 48 03 
+2017-11-08+22:04:22 - x38 Sequence = 98d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:04:22 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:04:22 - Report processing is done.
+2017-11-08+22:04:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 5 minutes 14 seconds)
+2017-11-08+22:04:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:04:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:04:22 - Report processing is done.
+2017-11-08+22:04:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 5 minutes 14 seconds)
+2017-11-08+22:04:40 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:04:40 - Raw bytes:01 c4 af 78 00 48 6c 48 03 
+2017-11-08+22:04:40 - x38 Sequence = 99d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:04:40 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:04:40 - Report processing is done.
+2017-11-08+22:04:40 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 5 minutes 32 seconds)
+2017-11-08+22:04:58 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:04:58 - Raw bytes:01 c4 af 78 00 48 6c 48 03 
+2017-11-08+22:04:58 - x38 Sequence = 100d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:04:58 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:04:58 - Report processing is done.
+2017-11-08+22:04:58 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 5 minutes 50 seconds)
+2017-11-08+22:05:16 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:05:16 - Raw bytes:01 c4 af 71 00 4e 00 72 03 
+2017-11-08+22:05:16 - x31 Sequence = 101 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:05:16 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:05:16 - Report processing is done.
+2017-11-08+22:05:16 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 6 minutes 8 seconds)
+2017-11-08+22:05:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:05:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:05:22 - Report processing is done.
+2017-11-08+22:05:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 6 minutes 14 seconds)
+2017-11-08+22:05:34 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:05:34 - Raw bytes:01 c4 af 71 00 4e 00 72 03 
+2017-11-08+22:05:34 - x31 Sequence = 102 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:05:34 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:05:34 - Report processing is done.
+2017-11-08+22:05:34 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 6 minutes 26 seconds)
+2017-11-08+22:05:52 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:05:52 - Raw bytes:01 c4 af 71 00 4e 00 72 02 
+2017-11-08+22:05:52 - x31 Sequence = 103 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:05:52 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:05:52 - Report processing is done.
+2017-11-08+22:05:52 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 6 minutes 44 seconds)
+2017-11-08+22:06:10 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:06:10 - Raw bytes:01 c4 af 71 00 4e 00 72 01 
+2017-11-08+22:06:10 - x31 Sequence = 104 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:06:10 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:06:10 - Report processing is done.
+2017-11-08+22:06:10 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 7 minutes 2 seconds)
+2017-11-08+22:06:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:06:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:06:22 - Report processing is done.
+2017-11-08+22:06:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 7 minutes 14 seconds)
+2017-11-08+22:06:28 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:06:28 - Raw bytes:01 c4 af 71 00 4e 00 72 00 
+2017-11-08+22:06:28 - x31 Sequence = 105 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:06:28 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:06:28 - Report processing is done.
+2017-11-08+22:06:28 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 7 minutes 20 seconds)
+2017-11-08+22:06:46 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:06:46 - Raw bytes:01 c4 af 71 00 4e 00 72 00 
+2017-11-08+22:06:46 - x31 Sequence = 106 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:06:46 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:06:46 - Report processing is done.
+2017-11-08+22:06:46 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 7 minutes 38 seconds)
+2017-11-08+22:07:04 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:07:04 - Raw bytes:01 c4 af 71 00 4e 00 72 00 
+2017-11-08+22:07:04 - x31 Sequence = 107 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:07:04 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:07:04 - Report processing is done.
+2017-11-08+22:07:04 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 7 minutes 56 seconds)
+2017-11-08+22:07:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:07:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:07:22 - Report processing is done.
+2017-11-08+22:07:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 8 minutes 14 seconds)
+2017-11-08+22:07:22 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:07:22 - Raw bytes:01 c4 af 71 00 4e 00 72 00 
+2017-11-08+22:07:22 - x31 Sequence = 108 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:07:22 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:07:22 - Report processing is done.
+2017-11-08+22:07:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 8 minutes 14 seconds)
+2017-11-08+22:07:40 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:07:40 - Raw bytes:01 c4 af 71 00 4e 00 72 00 
+2017-11-08+22:07:40 - x31 Sequence = 109 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:07:40 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:07:40 - Report processing is done.
+2017-11-08+22:07:40 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 8 minutes 32 seconds)
+2017-11-08+22:07:58 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:07:58 - Raw bytes:01 c4 af 71 00 4e 00 72 00 
+2017-11-08+22:07:58 - x31 Sequence = 110 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:07:58 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:07:58 - Report processing is done.
+2017-11-08+22:07:58 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 8 minutes 50 seconds)
+2017-11-08+22:08:16 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:08:16 - Raw bytes:01 c4 af 71 00 4e 00 72 00 
+2017-11-08+22:08:16 - x31 Sequence = 111 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:08:16 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:08:16 - Report processing is done.
+2017-11-08+22:08:16 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 9 minutes 8 seconds)
+2017-11-08+22:08:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:08:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:08:22 - Report processing is done.
+2017-11-08+22:08:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 9 minutes 14 seconds)
+2017-11-08+22:08:34 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:08:34 - Raw bytes:01 c4 af 71 00 4e 00 72 00 
+2017-11-08+22:08:34 - x31 Sequence = 112 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:08:34 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:08:34 - Report processing is done.
+2017-11-08+22:08:34 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 9 minutes 26 seconds)
+2017-11-08+22:08:52 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:08:52 - Raw bytes:01 c4 af 71 00 4e 00 72 00 
+2017-11-08+22:08:52 - x31 Sequence = 113 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:08:52 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:08:52 - Report processing is done.
+2017-11-08+22:08:52 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 9 minutes 44 seconds)
+2017-11-08+22:09:10 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:09:10 - Raw bytes:01 c4 af 71 00 4e 00 72 00 
+2017-11-08+22:09:10 - x31 Sequence = 114 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:09:10 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:09:10 - Report processing is done.
+2017-11-08+22:09:10 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 10 minutes 2 seconds)
+2017-11-08+22:09:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:09:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:09:22 - Report processing is done.
+2017-11-08+22:09:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 10 minutes 14 seconds)
+2017-11-08+22:09:28 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:09:28 - Raw bytes:01 c4 af 78 00 48 6c 48 01 
+2017-11-08+22:09:28 - x38 Sequence = 115d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:09:28 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:09:28 - Report processing is done.
+2017-11-08+22:09:28 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 10 minutes 20 seconds)
+2017-11-08+22:09:46 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:09:46 - Raw bytes:01 c4 af 71 00 34 00 72 02 
+2017-11-08+22:09:46 - x31 Sequence = 116 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 2.169793 Direction = NNW Rain Delta = 0.000000
+2017-11-08+22:09:46 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:09:46 - Report processing is done.
+2017-11-08+22:09:46 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 10 minutes 38 seconds)
+2017-11-08+22:10:04 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:10:04 - Raw bytes:01 c4 af 78 00 48 6c 48 03 
+2017-11-08+22:10:04 - x38 Sequence = 117d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:10:04 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:10:04 - Report processing is done.
+2017-11-08+22:10:04 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 10 minutes 56 seconds)
+2017-11-08+22:10:22 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:10:22 - Raw bytes:01 c4 af 78 00 48 6c 48 02 
+2017-11-08+22:10:22 - x38 Sequence = 118d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 512d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:10:22 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:10:22 - Report processing is done.
+2017-11-08+22:10:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 11 minutes 14 seconds)
+2017-11-08+22:10:22 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:10:22 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:10:22 - Report processing is done.
+2017-11-08+22:10:22 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 11 minutes 14 seconds)
+2017-11-08+22:10:40 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:10:40 - Raw bytes:01 c4 af 78 00 48 6c 48 01 
+2017-11-08+22:10:40 - x38 Sequence = 119d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:10:40 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:10:40 - Report processing is done.
+2017-11-08+22:10:40 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 11 minutes 32 seconds)
+2017-11-08+22:10:58 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:10:58 - Raw bytes:01 c4 af 78 00 48 6c 48 01 
+2017-11-08+22:10:58 - x38 Sequence = 120d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:10:58 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:10:58 - Report processing is done.
+2017-11-08+22:10:58 - Next scheduled Report 3 at 2017-11-08 17:11:07 (Time since last report: 11 minutes 50 seconds)
+2017-11-08+22:11:16 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:11:16 - Raw bytes:01 c4 af 78 00 48 6c 48 00 
+2017-11-08+22:11:16 - x38 Sequence = 121d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 2.684280d Outdoor Temp = 73.199997d Outdoor Hum = 72d
+2017-11-08+22:11:16 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:11:16 - Report processing is done.
+2017-11-08+22:11:16 - Now requesting a Report 3 per user-defined schedule.
+2017-11-08+22:11:16 - Timer stopped called from >> requestReport3FromConsole:USBReportDataRouter.
+2017-11-08+22:11:16 - Timer stopped called from >> getReport3:USBReportDataRouter.
+2017-11-08+22:11:17 - report3Requested -- timers killed.
+2017-11-08+22:11:17 - Report 3 RID6End.checksum SUCCESS
+2017-11-08+22:11:17 - Report 3 RID6End.checksum OK
+2017-11-08+22:11:17 - Report 3 IsComplete = YES
+2017-11-08+22:11:17 - Report 3: After updateGUI (twice)
+2017-11-08+22:11:17 - Report 3: rid4Records.Length = 1
+2017-11-08+22:11:17 - Report 3: After define pathName='/Users/josesanchez/CeibaSolar/eje' and fileName='acuriteweather.CSV'
+2017-11-08+22:11:17 - Report 3: Starting to process rid4Records records...
+2017-11-08+22:11:17 - RIDs to process: 1
+2017-11-08+22:11:17 - Report 3: rid4Record.checksum is OK
+2017-11-08+22:11:17 - Report 3: After creating the new appended CSV file + header text if required
+2017-11-08+22:11:17 - Report 3: After appending a row to the CSV file
+2017-11-08+22:11:17 - >>>>>>>> Adding CSV2 lines to csv file: "2017-11-08+17:11:17","23.0","  73","18.0","24.0","23.0","1014.00","  0.25","  3.00"," 4.0"," 13.00","292.50","  25.0","    51"
+
+2017-11-08+22:11:17 - Report 3: Done processing rid4Records records; data was saved to file 'acuriteweather.CSV'
+2017-11-08+22:11:17 - Clean up the RID4 and RID_4 made in REPORT3
+2017-11-08+22:11:17 - Report processing is done.
+2017-11-08+22:11:17 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 9 seconds)
+2017-11-08+22:11:17 - Restarted timers after Report3 processing.
+2017-11-08+22:11:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:11:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:11:23 - Report processing is done.
+2017-11-08+22:11:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 15 seconds)
+2017-11-08+22:11:35 - HandleWSReportEvents() received data: ƒØq 
+2017-11-08+22:11:35 - Raw bytes:01 c4 af 71 01 20 00 72 01 
+2017-11-08+22:11:35 - x31 Sequence = 122 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 5.771202 Direction = NW  Rain Delta = 0.000000
+2017-11-08+22:11:35 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:11:35 - Report processing is done.
+2017-11-08+22:11:35 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 28 seconds)
+2017-11-08+22:11:53 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:11:53 - Raw bytes:01 c4 af 78 00 68 6a 48 02 
+2017-11-08+22:11:53 - x38 Sequence = 123d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 512d Gust = 3.713254d Outdoor Temp = 73.000000d Outdoor Hum = 72d
+2017-11-08+22:11:53 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:11:53 - Report processing is done.
+2017-11-08+22:11:53 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 45 seconds)
+2017-11-08+22:12:11 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:12:11 - Raw bytes:01 c4 af 71 00 6e 00 72 03 
+2017-11-08+22:12:11 - x31 Sequence = 124 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 3.713254 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:12:11 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:12:11 - Report processing is done.
+2017-11-08+22:12:11 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 1 minute 3 seconds)
+2017-11-08+22:12:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 89 90  843.5
+2017-11-08+22:12:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:12:23 - Report processing is done.
+2017-11-08+22:12:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 1 minute 15 seconds)
+2017-11-08+22:12:29 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:12:29 - Raw bytes:01 c4 af 78 00 68 69 48 03 
+2017-11-08+22:12:29 - x38 Sequence = 125d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:12:29 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:12:29 - Report processing is done.
+2017-11-08+22:12:29 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 1 minute 21 seconds)
+2017-11-08+22:12:47 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:12:47 - Raw bytes:01 c4 af 78 00 68 69 48 03 
+2017-11-08+22:12:47 - x38 Sequence = 126d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:12:47 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:12:47 - Report processing is done.
+2017-11-08+22:12:47 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 1 minute 39 seconds)
+2017-11-08+22:13:05 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:13:05 - Raw bytes:01 c4 af 78 00 68 69 48 03 
+2017-11-08+22:13:05 - x38 Sequence = 127d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:13:05 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:13:05 - Report processing is done.
+2017-11-08+22:13:05 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 1 minute 57 seconds)
+2017-11-08+22:13:23 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:13:23 - Raw bytes:01 c4 af 78 00 68 69 48 02 
+2017-11-08+22:13:23 - x38 Sequence = 128d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 512d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:13:23 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:13:23 - Report processing is done.
+2017-11-08+22:13:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 2 minutes 15 seconds)
+2017-11-08+22:13:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:13:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:13:23 - Report processing is done.
+2017-11-08+22:13:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 2 minutes 15 seconds)
+2017-11-08+22:13:41 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:13:41 - Raw bytes:01 c4 af 78 00 68 69 48 01 
+2017-11-08+22:13:41 - x38 Sequence = 129d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:13:41 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:13:41 - Report processing is done.
+2017-11-08+22:13:41 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 2 minutes 33 seconds)
+2017-11-08+22:13:59 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:13:59 - Raw bytes:01 c4 af 78 00 68 69 48 00 
+2017-11-08+22:13:59 - x38 Sequence = 130d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:13:59 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:13:59 - Report processing is done.
+2017-11-08+22:13:59 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 2 minutes 51 seconds)
+2017-11-08+22:14:17 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:14:17 - Raw bytes:01 c4 af 78 00 68 69 48 00 
+2017-11-08+22:14:17 - x38 Sequence = 131d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:14:17 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:14:17 - Report processing is done.
+2017-11-08+22:14:17 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 3 minutes 9 seconds)
+2017-11-08+22:14:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:14:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:14:23 - Report processing is done.
+2017-11-08+22:14:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 3 minutes 15 seconds)
+2017-11-08+22:14:35 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:14:35 - Raw bytes:01 c4 af 78 00 68 69 48 00 
+2017-11-08+22:14:35 - x38 Sequence = 132d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:14:35 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:14:35 - Report processing is done.
+2017-11-08+22:14:35 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 3 minutes 27 seconds)
+2017-11-08+22:14:53 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:14:53 - Raw bytes:01 c4 af 78 00 68 69 48 00 
+2017-11-08+22:14:53 - x38 Sequence = 133d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:14:53 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:14:53 - Report processing is done.
+2017-11-08+22:14:53 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 3 minutes 45 seconds)
+2017-11-08+22:15:11 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:15:11 - Raw bytes:01 c4 af 78 00 68 69 48 00 
+2017-11-08+22:15:11 - x38 Sequence = 134d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:15:11 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:15:11 - Report processing is done.
+2017-11-08+22:15:11 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 4 minutes 3 seconds)
+2017-11-08+22:15:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:15:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:15:23 - Report processing is done.
+2017-11-08+22:15:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 4 minutes 15 seconds)
+2017-11-08+22:15:29 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:15:29 - Raw bytes:01 c4 af 78 00 68 69 48 00 
+2017-11-08+22:15:29 - x38 Sequence = 135d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:15:29 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:15:29 - Report processing is done.
+2017-11-08+22:15:29 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 4 minutes 21 seconds)
+2017-11-08+22:15:47 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:15:47 - Raw bytes:01 c4 af 78 00 68 69 48 00 
+2017-11-08+22:15:47 - x38 Sequence = 136d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:15:47 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:15:47 - Report processing is done.
+2017-11-08+22:15:47 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 4 minutes 39 seconds)
+2017-11-08+22:16:05 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:16:05 - Raw bytes:01 c4 af 78 00 68 69 48 00 
+2017-11-08+22:16:05 - x38 Sequence = 137d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:16:05 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:16:05 - Report processing is done.
+2017-11-08+22:16:05 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 4 minutes 57 seconds)
+2017-11-08+22:16:23 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:16:23 - Raw bytes:01 c4 af 78 00 68 69 48 00 
+2017-11-08+22:16:23 - x38 Sequence = 138d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 3.713254d Outdoor Temp = 72.900002d Outdoor Hum = 72d
+2017-11-08+22:16:23 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:16:23 - Report processing is done.
+2017-11-08+22:16:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 5 minutes 15 seconds)
+2017-11-08+22:16:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:16:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:16:23 - Report processing is done.
+2017-11-08+22:16:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 5 minutes 15 seconds)
+2017-11-08+22:16:41 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:16:41 - Raw bytes:01 c4 af 71 00 53 00 72 01 
+2017-11-08+22:16:41 - x31 Sequence = 139 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 3.198767 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:16:41 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:16:41 - Report processing is done.
+2017-11-08+22:16:41 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 5 minutes 33 seconds)
+2017-11-08+22:16:59 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:16:59 - Raw bytes:01 c4 af 71 00 53 00 72 00 
+2017-11-08+22:16:59 - x31 Sequence = 140 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:16:59 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:16:59 - Report processing is done.
+2017-11-08+22:16:59 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 5 minutes 51 seconds)
+2017-11-08+22:17:17 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:17:17 - Raw bytes:01 c4 af 71 00 73 00 72 01 
+2017-11-08+22:17:17 - x31 Sequence = 141 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:17:17 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:17:17 - Report processing is done.
+2017-11-08+22:17:17 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 6 minutes 9 seconds)
+2017-11-08+22:17:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:17:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:17:23 - Report processing is done.
+2017-11-08+22:17:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 6 minutes 15 seconds)
+2017-11-08+22:17:35 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:17:35 - Raw bytes:01 c4 af 71 00 73 00 72 00 
+2017-11-08+22:17:35 - x31 Sequence = 142 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:17:35 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:17:35 - Report processing is done.
+2017-11-08+22:17:35 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 6 minutes 27 seconds)
+2017-11-08+22:17:53 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:17:53 - Raw bytes:01 c4 af 71 00 73 00 72 00 
+2017-11-08+22:17:53 - x31 Sequence = 143 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:17:53 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:17:53 - Report processing is done.
+2017-11-08+22:17:53 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 6 minutes 45 seconds)
+2017-11-08+22:18:11 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:18:11 - Raw bytes:01 c4 af 78 00 58 67 48 01 
+2017-11-08+22:18:11 - x38 Sequence = 144d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 3.198767d Outdoor Temp = 72.699997d Outdoor Hum = 72d
+2017-11-08+22:18:11 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:18:11 - Report processing is done.
+2017-11-08+22:18:11 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 7 minutes 3 seconds)
+2017-11-08+22:18:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:18:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:18:23 - Report processing is done.
+2017-11-08+22:18:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 7 minutes 15 seconds)
+2017-11-08+22:18:29 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:18:29 - Raw bytes:01 c4 af 71 00 5c 00 72 02 
+2017-11-08+22:18:29 - x31 Sequence = 145 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:18:29 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:18:29 - Report processing is done.
+2017-11-08+22:18:29 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 7 minutes 21 seconds)
+2017-11-08+22:18:47 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:18:47 - Raw bytes:01 c4 af 71 00 5c 00 72 01 
+2017-11-08+22:18:47 - x31 Sequence = 146 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:18:47 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:18:47 - Report processing is done.
+2017-11-08+22:18:47 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 7 minutes 39 seconds)
+2017-11-08+22:19:05 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:19:05 - Raw bytes:01 c4 af 71 00 5c 00 72 01 
+2017-11-08+22:19:05 - x31 Sequence = 147 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:19:05 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:19:05 - Report processing is done.
+2017-11-08+22:19:05 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 7 minutes 57 seconds)
+2017-11-08+22:19:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:19:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:19:23 - Report processing is done.
+2017-11-08+22:19:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 8 minutes 15 seconds)
+2017-11-08+22:19:23 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:19:23 - Raw bytes:01 c4 af 71 00 5c 00 72 00 
+2017-11-08+22:19:23 - x31 Sequence = 148 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:19:23 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:19:23 - Report processing is done.
+2017-11-08+22:19:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 8 minutes 15 seconds)
+2017-11-08+22:19:41 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:19:41 - Raw bytes:01 c4 af 71 00 5c 00 72 00 
+2017-11-08+22:19:41 - x31 Sequence = 149 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:19:41 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:19:41 - Report processing is done.
+2017-11-08+22:19:41 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 8 minutes 33 seconds)
+2017-11-08+22:19:59 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:19:59 - Raw bytes:01 c4 af 71 00 5c 00 72 00 
+2017-11-08+22:19:59 - x31 Sequence = 150 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:19:59 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:19:59 - Report processing is done.
+2017-11-08+22:19:59 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 8 minutes 51 seconds)
+2017-11-08+22:20:17 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:20:17 - Raw bytes:01 c4 af 71 00 5c 00 72 00 
+2017-11-08+22:20:17 - x31 Sequence = 151 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:20:17 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:20:17 - Report processing is done.
+2017-11-08+22:20:17 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 9 minutes 9 seconds)
+2017-11-08+22:20:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:20:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:20:23 - Report processing is done.
+2017-11-08+22:20:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 9 minutes 15 seconds)
+2017-11-08+22:20:35 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:20:35 - Raw bytes:01 c4 af 71 00 5c 00 72 00 
+2017-11-08+22:20:35 - x31 Sequence = 152 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:20:35 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:20:35 - Report processing is done.
+2017-11-08+22:20:35 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 9 minutes 27 seconds)
+2017-11-08+22:20:53 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:20:53 - Raw bytes:01 c4 af 71 00 5c 00 72 00 
+2017-11-08+22:20:53 - x31 Sequence = 153 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:20:53 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:20:53 - Report processing is done.
+2017-11-08+22:20:53 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 9 minutes 45 seconds)
+2017-11-08+22:21:11 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:21:11 - Raw bytes:01 c4 af 71 00 5c 00 72 00 
+2017-11-08+22:21:11 - x31 Sequence = 154 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:21:11 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:21:11 - Report processing is done.
+2017-11-08+22:21:11 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 10 minutes 3 seconds)
+2017-11-08+22:21:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:21:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:21:23 - Report processing is done.
+2017-11-08+22:21:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 10 minutes 15 seconds)
+2017-11-08+22:21:29 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:21:29 - Raw bytes:01 c4 af 71 00 5c 00 72 00 
+2017-11-08+22:21:29 - x31 Sequence = 155 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:21:29 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:21:29 - Report processing is done.
+2017-11-08+22:21:29 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 10 minutes 21 seconds)
+2017-11-08+22:21:47 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:21:47 - Raw bytes:01 c4 af 71 00 56 00 72 01 
+2017-11-08+22:21:47 - x31 Sequence = 156 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 3.198767 Direction =  N  Rain Delta = 0.000000
+2017-11-08+22:21:47 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:21:47 - Report processing is done.
+2017-11-08+22:21:47 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 10 minutes 39 seconds)
+2017-11-08+22:22:05 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:22:05 - Raw bytes:01 c4 af 71 00 56 00 72 00 
+2017-11-08+22:22:05 - x31 Sequence = 157 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction =  N  Rain Delta = 0.000000
+2017-11-08+22:22:05 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:22:05 - Report processing is done.
+2017-11-08+22:22:05 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 10 minutes 57 seconds)
+2017-11-08+22:22:23 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:22:23 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:22:23 - Report processing is done.
+2017-11-08+22:22:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 11 minutes 15 seconds)
+2017-11-08+22:22:23 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:22:23 - Raw bytes:01 c4 af 71 00 56 00 72 00 
+2017-11-08+22:22:23 - x31 Sequence = 158 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 3.198767 Direction =  N  Rain Delta = 0.000000
+2017-11-08+22:22:23 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:22:23 - Report processing is done.
+2017-11-08+22:22:23 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 11 minutes 15 seconds)
+2017-11-08+22:22:41 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:22:41 - Raw bytes:01 c4 af 78 00 48 67 49 01 
+2017-11-08+22:22:41 - x38 Sequence = 159d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 2.684280d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:22:41 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:22:41 - Report processing is done.
+2017-11-08+22:22:41 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 11 minutes 33 seconds)
+2017-11-08+22:22:59 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:22:59 - Raw bytes:01 c4 af 78 00 48 67 49 00 
+2017-11-08+22:22:59 - x38 Sequence = 160d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 2.684280d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:22:59 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:22:59 - Report processing is done.
+2017-11-08+22:22:59 - Next scheduled Report 3 at 2017-11-08 17:23:07 (Time since last report: 11 minutes 51 seconds)
+2017-11-08+22:23:17 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:23:17 - Raw bytes:01 c4 af 78 00 28 67 49 01 
+2017-11-08+22:23:17 - x38 Sequence = 161d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 1.655306d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:23:17 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:23:17 - Report processing is done.
+2017-11-08+22:23:17 - Now requesting a Report 3 per user-defined schedule.
+2017-11-08+22:23:17 - Timer stopped called from >> requestReport3FromConsole:USBReportDataRouter.
+2017-11-08+22:23:17 - Timer stopped called from >> getReport3:USBReportDataRouter.
+2017-11-08+22:23:18 - report3Requested -- timers killed.
+2017-11-08+22:23:18 - Report 3 RID6End.checksum SUCCESS
+2017-11-08+22:23:18 - Report 3 RID6End.checksum OK
+2017-11-08+22:23:18 - Report 3 IsComplete = YES
+2017-11-08+22:23:18 - Report 3: After updateGUI (twice)
+2017-11-08+22:23:18 - Report 3: rid4Records.Length = 1
+2017-11-08+22:23:18 - Report 3: After define pathName='/Users/josesanchez/CeibaSolar/eje' and fileName='acuriteweather.CSV'
+2017-11-08+22:23:18 - Report 3: Starting to process rid4Records records...
+2017-11-08+22:23:18 - RIDs to process: 1
+2017-11-08+22:23:18 - Report 3: rid4Record.checksum is OK
+2017-11-08+22:23:18 - Report 3: After creating the new appended CSV file + header text if required
+2017-11-08+22:23:18 - Report 3: After appending a row to the CSV file
+2017-11-08+22:23:18 - >>>>>>>> Adding CSV2 lines to csv file: "2017-11-08+17:23:18","23.0","  72","18.0","24.0","23.0","1014.00","  0.25","  6.00"," 4.6"," 13.00"," 22.50","  25.0","    52"
+
+2017-11-08+22:23:18 - Report 3: Done processing rid4Records records; data was saved to file 'acuriteweather.CSV'
+2017-11-08+22:23:18 - Clean up the RID4 and RID_4 made in REPORT3
+2017-11-08+22:23:18 - Report processing is done.
+2017-11-08+22:23:18 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 11 seconds)
+2017-11-08+22:23:18 - Restarted timers after Report3 processing.
+2017-11-08+22:23:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:23:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:23:24 - Report processing is done.
+2017-11-08+22:23:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 17 seconds)
+2017-11-08+22:23:36 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:23:36 - Raw bytes:01 c4 af 71 00 21 00 72 02 
+2017-11-08+22:23:36 - x31 Sequence = 162 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 1.655306 Direction = WSW Rain Delta = 0.000000
+2017-11-08+22:23:36 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:23:36 - Report processing is done.
+2017-11-08+22:23:36 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 29 seconds)
+2017-11-08+22:23:54 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:23:54 - Raw bytes:01 c4 af 78 00 28 67 49 03 
+2017-11-08+22:23:54 - x38 Sequence = 163d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 1.655306d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:23:54 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:23:54 - Report processing is done.
+2017-11-08+22:23:54 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 47 seconds)
+2017-11-08+22:24:12 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:24:12 - Raw bytes:01 c4 af 78 00 28 67 49 02 
+2017-11-08+22:24:12 - x38 Sequence = 164d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 512d Gust = 1.655306d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:24:12 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:24:12 - Report processing is done.
+2017-11-08+22:24:12 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 1 minute 5 seconds)
+2017-11-08+22:24:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 91 90  843.6
+2017-11-08+22:24:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:24:24 - Report processing is done.
+2017-11-08+22:24:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 1 minute 17 seconds)
+2017-11-08+22:24:30 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:24:30 - Raw bytes:01 c4 af 78 00 48 67 49 03 
+2017-11-08+22:24:30 - x38 Sequence = 165d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 2.684280d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:24:30 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:24:30 - Report processing is done.
+2017-11-08+22:24:30 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 1 minute 23 seconds)
+2017-11-08+22:24:48 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:24:48 - Raw bytes:01 c4 af 78 00 48 67 49 02 
+2017-11-08+22:24:48 - x38 Sequence = 166d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 512d Gust = 2.684280d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:24:48 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:24:48 - Report processing is done.
+2017-11-08+22:24:48 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 1 minute 41 seconds)
+2017-11-08+22:25:06 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:25:06 - Raw bytes:01 c4 af 78 00 38 67 49 03 
+2017-11-08+22:25:06 - x38 Sequence = 167d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 2.169793d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:25:06 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:25:06 - Report processing is done.
+2017-11-08+22:25:06 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 1 minute 59 seconds)
+2017-11-08+22:25:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:25:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:25:24 - Report processing is done.
+2017-11-08+22:25:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 2 minutes 17 seconds)
+2017-11-08+22:25:24 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:25:24 - Raw bytes:01 c4 af 71 00 43 00 72 03 
+2017-11-08+22:25:24 - x31 Sequence = 168 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:25:24 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:25:24 - Report processing is done.
+2017-11-08+22:25:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 2 minutes 17 seconds)
+2017-11-08+22:25:42 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:25:42 - Raw bytes:01 c4 af 78 00 58 67 49 03 
+2017-11-08+22:25:42 - x38 Sequence = 169d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 3.198767d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:25:42 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:25:42 - Report processing is done.
+2017-11-08+22:25:42 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 2 minutes 35 seconds)
+2017-11-08+22:26:00 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:26:00 - Raw bytes:01 c4 af 71 00 4c 00 72 03 
+2017-11-08+22:26:00 - x31 Sequence = 170 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:26:00 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:26:00 - Report processing is done.
+2017-11-08+22:26:00 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 2 minutes 53 seconds)
+2017-11-08+22:26:18 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:26:18 - Raw bytes:01 c4 af 78 00 58 67 49 03 
+2017-11-08+22:26:18 - x38 Sequence = 171d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 3.198767d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:26:18 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:26:18 - Report processing is done.
+2017-11-08+22:26:18 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 3 minutes 11 seconds)
+2017-11-08+22:26:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:26:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:26:24 - Report processing is done.
+2017-11-08+22:26:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 3 minutes 17 seconds)
+2017-11-08+22:26:36 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:26:36 - Raw bytes:01 c4 af 71 00 73 00 72 03 
+2017-11-08+22:26:36 - x31 Sequence = 172 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:26:36 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:26:36 - Report processing is done.
+2017-11-08+22:26:36 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 3 minutes 29 seconds)
+2017-11-08+22:26:54 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:26:54 - Raw bytes:01 c4 af 71 00 73 00 72 03 
+2017-11-08+22:26:54 - x31 Sequence = 173 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:26:54 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:26:54 - Report processing is done.
+2017-11-08+22:26:54 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 3 minutes 47 seconds)
+2017-11-08+22:27:12 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:27:13 - Raw bytes:01 c4 af 71 00 73 00 72 03 
+2017-11-08+22:27:13 - x31 Sequence = 174 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:27:13 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:27:13 - Report processing is done.
+2017-11-08+22:27:13 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 4 minutes 5 seconds)
+2017-11-08+22:27:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:27:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:27:24 - Report processing is done.
+2017-11-08+22:27:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 4 minutes 17 seconds)
+2017-11-08+22:27:30 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:27:30 - Raw bytes:01 c4 af 71 00 73 00 72 02 
+2017-11-08+22:27:30 - x31 Sequence = 175 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:27:30 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:27:30 - Report processing is done.
+2017-11-08+22:27:30 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 4 minutes 23 seconds)
+2017-11-08+22:27:48 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:27:48 - Raw bytes:01 c4 af 71 00 73 00 72 01 
+2017-11-08+22:27:48 - x31 Sequence = 176 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:27:48 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:27:48 - Report processing is done.
+2017-11-08+22:27:48 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 4 minutes 41 seconds)
+2017-11-08+22:28:06 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:28:06 - Raw bytes:01 c4 af 71 00 73 00 72 00 
+2017-11-08+22:28:06 - x31 Sequence = 177 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:28:06 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:28:06 - Report processing is done.
+2017-11-08+22:28:06 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 4 minutes 59 seconds)
+2017-11-08+22:28:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:28:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:28:24 - Report processing is done.
+2017-11-08+22:28:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 5 minutes 17 seconds)
+2017-11-08+22:28:24 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:28:24 - Raw bytes:01 c4 af 71 00 73 00 72 00 
+2017-11-08+22:28:24 - x31 Sequence = 178 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:28:24 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:28:24 - Report processing is done.
+2017-11-08+22:28:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 5 minutes 17 seconds)
+2017-11-08+22:28:42 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:28:42 - Raw bytes:01 c4 af 78 00 28 67 49 01 
+2017-11-08+22:28:42 - x38 Sequence = 179d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 1.655306d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:28:42 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:28:42 - Report processing is done.
+2017-11-08+22:28:42 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 5 minutes 35 seconds)
+2017-11-08+22:29:00 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:29:00 - Raw bytes:01 c4 af 78 00 28 67 49 01 
+2017-11-08+22:29:00 - x38 Sequence = 180d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 1.655306d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:29:00 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:29:00 - Report processing is done.
+2017-11-08+22:29:00 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 5 minutes 53 seconds)
+2017-11-08+22:29:18 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:29:18 - Raw bytes:01 c4 af 78 00 28 67 49 00 
+2017-11-08+22:29:18 - x38 Sequence = 181d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 0d Gust = 1.655306d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:29:18 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:29:18 - Report processing is done.
+2017-11-08+22:29:18 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 6 minutes 11 seconds)
+2017-11-08+22:29:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:29:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:29:24 - Report processing is done.
+2017-11-08+22:29:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 6 minutes 17 seconds)
+2017-11-08+22:29:36 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:29:36 - Raw bytes:01 c4 af 78 00 18 67 49 01 
+2017-11-08+22:29:36 - x38 Sequence = 182d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 1.140819d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:29:36 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:29:36 - Report processing is done.
+2017-11-08+22:29:36 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 6 minutes 29 seconds)
+2017-11-08+22:29:54 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:29:54 - Raw bytes:01 c4 af 71 00 3c 00 72 02 
+2017-11-08+22:29:54 - x31 Sequence = 183 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 2.169793 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:29:54 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:29:54 - Report processing is done.
+2017-11-08+22:29:54 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 6 minutes 47 seconds)
+2017-11-08+22:30:12 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:30:12 - Raw bytes:01 c4 af 78 00 18 67 49 03 
+2017-11-08+22:30:12 - x38 Sequence = 184d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 1.140819d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:30:12 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:30:12 - Report processing is done.
+2017-11-08+22:30:12 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 7 minutes 5 seconds)
+2017-11-08+22:30:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:30:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:30:24 - Report processing is done.
+2017-11-08+22:30:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 7 minutes 17 seconds)
+2017-11-08+22:30:30 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:30:30 - Raw bytes:01 c4 af 71 00 1e 00 72 03 
+2017-11-08+22:30:30 - x31 Sequence = 185 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 1.140819 Direction = NNE Rain Delta = 0.000000
+2017-11-08+22:30:30 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:30:30 - Report processing is done.
+2017-11-08+22:30:30 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 7 minutes 23 seconds)
+2017-11-08+22:30:48 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:30:48 - Raw bytes:01 c4 af 78 00 18 67 49 03 
+2017-11-08+22:30:48 - x38 Sequence = 186d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 1.140819d Outdoor Temp = 72.699997d Outdoor Hum = 73d
+2017-11-08+22:30:48 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:30:48 - Report processing is done.
+2017-11-08+22:30:48 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 7 minutes 41 seconds)
+2017-11-08+22:31:06 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:31:06 - Raw bytes:01 c4 af 71 00 13 00 72 03 
+2017-11-08+22:31:06 - x31 Sequence = 187 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 1.140819 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:31:06 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:31:06 - Report processing is done.
+2017-11-08+22:31:06 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 7 minutes 59 seconds)
+2017-11-08+22:31:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:31:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:31:24 - Report processing is done.
+2017-11-08+22:31:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 8 minutes 17 seconds)
+2017-11-08+22:31:24 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:31:24 - Raw bytes:01 c4 af 71 00 13 00 72 03 
+2017-11-08+22:31:24 - x31 Sequence = 188 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 1.140819 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:31:24 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:31:24 - Report processing is done.
+2017-11-08+22:31:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 8 minutes 17 seconds)
+2017-11-08+22:31:42 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:31:42 - Raw bytes:01 c4 af 71 00 73 00 72 03 
+2017-11-08+22:31:42 - x31 Sequence = 189 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.227741 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:31:42 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:31:42 - Report processing is done.
+2017-11-08+22:31:42 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 8 minutes 35 seconds)
+2017-11-08+22:32:00 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:32:00 - Raw bytes:01 c4 af 78 00 58 65 49 03 
+2017-11-08+22:32:00 - x38 Sequence = 190d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 3.198767d Outdoor Temp = 72.500000d Outdoor Hum = 73d
+2017-11-08+22:32:00 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:32:00 - Report processing is done.
+2017-11-08+22:32:00 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 8 minutes 53 seconds)
+2017-11-08+22:32:18 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:32:18 - Raw bytes:01 c4 af 78 00 58 65 49 03 
+2017-11-08+22:32:18 - x38 Sequence = 191d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 768d Gust = 3.198767d Outdoor Temp = 72.500000d Outdoor Hum = 73d
+2017-11-08+22:32:18 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:32:18 - Report processing is done.
+2017-11-08+22:32:18 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 9 minutes 11 seconds)
+2017-11-08+22:32:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:32:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:32:24 - Report processing is done.
+2017-11-08+22:32:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 9 minutes 17 seconds)
+2017-11-08+22:32:36 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:32:36 - Raw bytes:01 c4 af 78 00 58 65 49 02 
+2017-11-08+22:32:36 - x38 Sequence = 192d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 512d Gust = 3.198767d Outdoor Temp = 72.500000d Outdoor Hum = 73d
+2017-11-08+22:32:36 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:32:37 - Report processing is done.
+2017-11-08+22:32:37 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 9 minutes 29 seconds)
+2017-11-08+22:32:54 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:32:54 - Raw bytes:01 c4 af 78 00 58 65 49 01 
+2017-11-08+22:32:54 - x38 Sequence = 193d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 256d Gust = 3.198767d Outdoor Temp = 72.500000d Outdoor Hum = 73d
+2017-11-08+22:32:54 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:32:54 - Report processing is done.
+2017-11-08+22:32:54 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 9 minutes 47 seconds)
+2017-11-08+22:33:12 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:33:12 - Raw bytes:01 c4 af 78 00 68 65 49 02 
+2017-11-08+22:33:12 - x38 Sequence = 194d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 512d Gust = 3.713254d Outdoor Temp = 72.500000d Outdoor Hum = 73d
+2017-11-08+22:33:12 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:33:12 - Report processing is done.
+2017-11-08+22:33:12 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 10 minutes 5 seconds)
+2017-11-08+22:33:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:33:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:33:24 - Report processing is done.
+2017-11-08+22:33:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 10 minutes 17 seconds)
+2017-11-08+22:33:30 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:33:30 - Raw bytes:01 c4 af 71 00 3a 00 72 03 
+2017-11-08+22:33:30 - x31 Sequence = 195 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.169793 Direction =  E  Rain Delta = 0.000000
+2017-11-08+22:33:30 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:33:30 - Report processing is done.
+2017-11-08+22:33:30 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 10 minutes 23 seconds)
+2017-11-08+22:33:48 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:33:48 - Raw bytes:01 c4 af 78 00 18 65 49 03 
+2017-11-08+22:33:48 - x38 Sequence = 196d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 1.140819d Outdoor Temp = 72.500000d Outdoor Hum = 73d
+2017-11-08+22:33:48 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:33:48 - Report processing is done.
+2017-11-08+22:33:48 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 10 minutes 41 seconds)
+2017-11-08+22:34:06 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:34:06 - Raw bytes:01 c4 af 71 00 4c 00 72 03 
+2017-11-08+22:34:06 - x31 Sequence = 197 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:34:06 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:34:06 - Report processing is done.
+2017-11-08+22:34:06 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 10 minutes 59 seconds)
+2017-11-08+22:34:24 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:34:24 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:34:24 - Report processing is done.
+2017-11-08+22:34:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 11 minutes 17 seconds)
+2017-11-08+22:34:24 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:34:24 - Raw bytes:01 c4 af 71 00 4c 00 72 03 
+2017-11-08+22:34:24 - x31 Sequence = 198 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:34:24 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:34:24 - Report processing is done.
+2017-11-08+22:34:24 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 11 minutes 17 seconds)
+2017-11-08+22:34:42 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:34:42 - Raw bytes:01 c4 af 71 00 4c 00 72 03 
+2017-11-08+22:34:42 - x31 Sequence = 199 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:34:42 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:34:42 - Report processing is done.
+2017-11-08+22:34:42 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 11 minutes 35 seconds)
+2017-11-08+22:35:00 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:35:00 - Raw bytes:01 c4 af 71 00 4c 00 72 03 
+2017-11-08+22:35:00 - x31 Sequence = 200 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:35:00 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:35:00 - Report processing is done.
+2017-11-08+22:35:00 - Next scheduled Report 3 at 2017-11-08 17:35:07 (Time since last report: 11 minutes 53 seconds)
+2017-11-08+22:35:18 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:35:18 - Raw bytes:01 c4 af 71 00 4c 00 72 03 
+2017-11-08+22:35:18 - x31 Sequence = 201 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:35:18 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:35:18 - Report processing is done.
+2017-11-08+22:35:18 - Now requesting a Report 3 per user-defined schedule.
+2017-11-08+22:35:18 - Timer stopped called from >> requestReport3FromConsole:USBReportDataRouter.
+2017-11-08+22:35:18 - Timer stopped called from >> getReport3:USBReportDataRouter.
+2017-11-08+22:35:19 - report3Requested -- timers killed.
+2017-11-08+22:35:19 - Report 3 RID6End.checksum SUCCESS
+2017-11-08+22:35:19 - Report 3 RID6End.checksum OK
+2017-11-08+22:35:19 - Report 3 IsComplete = YES
+2017-11-08+22:35:19 - Report 3: After updateGUI (twice)
+2017-11-08+22:35:19 - Report 3: rid4Records.Length = 1
+2017-11-08+22:35:19 - Report 3: After define pathName='/Users/josesanchez/CeibaSolar/eje' and fileName='acuriteweather.CSV'
+2017-11-08+22:35:19 - Report 3: Starting to process rid4Records records...
+2017-11-08+22:35:19 - RIDs to process: 1
+2017-11-08+22:35:19 - Report 3: rid4Record.checksum is OK
+2017-11-08+22:35:19 - Report 3: After creating the new appended CSV file + header text if required
+2017-11-08+22:35:19 - Report 3: After appending a row to the CSV file
+2017-11-08+22:35:19 - >>>>>>>> Adding CSV2 lines to csv file: "2017-11-08+17:35:19","23.0","  73","18.0","24.0","23.0","1014.00","  0.25","  4.00"," 4.9"," 13.00","247.50","  25.0","    51"
+
+2017-11-08+22:35:20 - Report 3: Done processing rid4Records records; data was saved to file 'acuriteweather.CSV'
+2017-11-08+22:35:20 - Clean up the RID4 and RID_4 made in REPORT3
+2017-11-08+22:35:20 - Report processing is done.
+2017-11-08+22:35:20 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 12 seconds)
+2017-11-08+22:35:20 - Restarted timers after Report3 processing.
+2017-11-08+22:35:26 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 8D 90  843.7
+2017-11-08+22:35:26 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:35:26 - Report processing is done.
+2017-11-08+22:35:26 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 18 seconds)
+2017-11-08+22:35:38 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:35:38 - Raw bytes:01 c4 af 71 00 4c 00 72 02 
+2017-11-08+22:35:38 - x31 Sequence = 202 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:35:38 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:35:38 - Report processing is done.
+2017-11-08+22:35:38 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 30 seconds)
+2017-11-08+22:35:56 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:35:56 - Raw bytes:01 c4 af 71 00 4c 00 72 01 
+2017-11-08+22:35:56 - x31 Sequence = 203 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:35:56 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:35:56 - Report processing is done.
+2017-11-08+22:35:56 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 48 seconds)
+2017-11-08+22:36:14 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:36:14 - Raw bytes:01 c4 af 71 00 4c 00 72 00 
+2017-11-08+22:36:14 - x31 Sequence = 204 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:36:14 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:36:14 - Report processing is done.
+2017-11-08+22:36:14 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 1 minute 6 seconds)
+2017-11-08+22:36:26 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:36:26 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:36:26 - Report processing is done.
+2017-11-08+22:36:26 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 1 minute 18 seconds)
+2017-11-08+22:36:32 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:36:32 - Raw bytes:01 c4 af 71 00 4c 00 72 00 
+2017-11-08+22:36:32 - x31 Sequence = 205 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 2.684280 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:36:32 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:36:32 - Report processing is done.
+2017-11-08+22:36:32 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 1 minute 24 seconds)
+2017-11-08+22:36:50 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:36:50 - Raw bytes:01 c4 af 71 00 53 00 72 01 
+2017-11-08+22:36:50 - x31 Sequence = 206 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 3.198767 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:36:50 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:36:50 - Report processing is done.
+2017-11-08+22:36:50 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 1 minute 42 seconds)
+2017-11-08+22:37:08 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:37:08 - Raw bytes:01 c4 af 71 00 53 00 72 01 
+2017-11-08+22:37:08 - x31 Sequence = 207 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 3.198767 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:37:08 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:37:08 - Report processing is done.
+2017-11-08+22:37:08 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 2 minutes )
+2017-11-08+22:37:26 - HandleWSReportEvents() received data: ƒØxeI
+2017-11-08+22:37:26 - Raw bytes:01 c4 af 78 01 08 65 49 02 
+2017-11-08+22:37:26 - x38 Sequence = 208d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 512d Gust = 4.742229d Outdoor Temp = 72.500000d Outdoor Hum = 73d
+2017-11-08+22:37:26 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:37:26 - Report processing is done.
+2017-11-08+22:37:26 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 2 minutes 18 seconds)
+2017-11-08+22:37:26 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:37:26 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:37:26 - Report processing is done.
+2017-11-08+22:37:26 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 2 minutes 18 seconds)
+2017-11-08+22:37:44 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:37:44 - Raw bytes:01 c4 af 71 01 05 00 72 03 
+2017-11-08+22:37:44 - x31 Sequence = 209 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.742229 Direction = SW  Rain Delta = 0.000000
+2017-11-08+22:37:44 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:37:44 - Report processing is done.
+2017-11-08+22:37:44 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 2 minutes 36 seconds)
+2017-11-08+22:38:02 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:38:02 - Raw bytes:01 c4 af 78 00 68 65 49 03 
+2017-11-08+22:38:02 - x38 Sequence = 210d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 3.713254d Outdoor Temp = 72.500000d Outdoor Hum = 73d
+2017-11-08+22:38:02 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:38:02 - Report processing is done.
+2017-11-08+22:38:02 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 2 minutes 54 seconds)
+2017-11-08+22:38:20 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:38:20 - Raw bytes:01 c4 af 71 00 46 00 72 03 
+2017-11-08+22:38:20 - x31 Sequence = 211 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction =  N  Rain Delta = 0.000000
+2017-11-08+22:38:20 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:38:20 - Report processing is done.
+2017-11-08+22:38:20 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 3 minutes 12 seconds)
+2017-11-08+22:38:26 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:38:26 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:38:26 - Report processing is done.
+2017-11-08+22:38:26 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 3 minutes 18 seconds)
+2017-11-08+22:38:38 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:38:38 - Raw bytes:01 c4 af 71 00 46 00 72 03 
+2017-11-08+22:38:38 - x31 Sequence = 212 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction =  N  Rain Delta = 0.000000
+2017-11-08+22:38:38 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:38:38 - Report processing is done.
+2017-11-08+22:38:38 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 3 minutes 30 seconds)
+2017-11-08+22:38:56 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:38:56 - Raw bytes:01 c4 af 71 00 43 00 72 03 
+2017-11-08+22:38:56 - x31 Sequence = 213 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction =  W  Rain Delta = 0.000000
+2017-11-08+22:38:56 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:38:56 - Report processing is done.
+2017-11-08+22:38:56 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 3 minutes 48 seconds)
+2017-11-08+22:39:14 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:39:14 - Raw bytes:01 c4 af 78 00 38 65 4a 03 
+2017-11-08+22:39:14 - x38 Sequence = 214d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 2.169793d Outdoor Temp = 72.500000d Outdoor Hum = 74d
+2017-11-08+22:39:14 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:39:14 - Report processing is done.
+2017-11-08+22:39:14 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 4 minutes 6 seconds)
+2017-11-08+22:39:26 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:39:26 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:39:26 - Report processing is done.
+2017-11-08+22:39:26 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 4 minutes 18 seconds)
+2017-11-08+22:39:32 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:39:32 - Raw bytes:01 c4 af 71 00 42 00 72 03 
+2017-11-08+22:39:32 - x31 Sequence = 215 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 2.684280 Direction = WNW Rain Delta = 0.000000
+2017-11-08+22:39:32 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:39:32 - Report processing is done.
+2017-11-08+22:39:32 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 4 minutes 24 seconds)
+2017-11-08+22:39:50 - HandleWSReportEvents() received data: ƒØx
+2017-11-08+22:39:50 - Raw bytes:01 c4 af 78 00 48 65 4a 03 
+2017-11-08+22:39:50 - x38 Sequence = 216d Channel = 192d Sensor ID = 1199d Battery = 1d RSSI = 1023d Gust = 2.684280d Outdoor Temp = 72.500000d Outdoor Hum = 74d
+2017-11-08+22:39:50 - Data will not be posted to AcuLink as streaming is disabled or user's AcuLink credentials are invalid or no connection to sensor.
+2017-11-08+22:39:50 - Report processing is done.
+2017-11-08+22:39:50 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 4 minutes 42 seconds)
+2017-11-08+22:40:08 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:40:08 - Raw bytes:01 c4 af 71 00 7c 00 72 03 
+2017-11-08+22:40:08 - x31 Sequence = 217 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:40:08 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:40:08 - Report processing is done.
+2017-11-08+22:40:08 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 5 minutes )
+2017-11-08+22:40:26 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:40:26 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:40:26 - Report processing is done.
+2017-11-08+22:40:26 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 5 minutes 18 seconds)
+2017-11-08+22:40:26 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:40:26 - Raw bytes:01 c4 af 71 00 7c 00 72 03 
+2017-11-08+22:40:26 - x31 Sequence = 218 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 3 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:40:26 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:40:26 - Report processing is done.
+2017-11-08+22:40:26 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 5 minutes 18 seconds)
+2017-11-08+22:40:44 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:40:44 - Raw bytes:01 c4 af 71 00 7c 00 72 02 
+2017-11-08+22:40:44 - x31 Sequence = 219 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 2 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:40:44 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:40:44 - Report processing is done.
+2017-11-08+22:40:44 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 5 minutes 36 seconds)
+2017-11-08+22:41:01 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:41:02 - Raw bytes:01 c4 af 71 00 7c 00 72 01 
+2017-11-08+22:41:02 - x31 Sequence = 220 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:41:02 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:41:02 - Report processing is done.
+2017-11-08+22:41:02 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 5 minutes 54 seconds)
+2017-11-08+22:41:19 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:41:19 - Raw bytes:01 c4 af 71 00 7c 00 72 01 
+2017-11-08+22:41:19 - x31 Sequence = 221 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 1 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:41:19 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:41:19 - Report processing is done.
+2017-11-08+22:41:20 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 6 minutes 12 seconds)
+2017-11-08+22:41:25 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:41:25 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:41:25 - Report processing is done.
+2017-11-08+22:41:25 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 6 minutes 18 seconds)
+2017-11-08+22:41:38 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:41:38 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:41:38 - x31 Sequence = 222 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:41:38 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:41:38 - Report processing is done.
+2017-11-08+22:41:38 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 6 minutes 30 seconds)
+2017-11-08+22:41:56 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:41:56 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:41:56 - x31 Sequence = 223 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:41:56 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:41:56 - Report processing is done.
+2017-11-08+22:41:56 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 6 minutes 48 seconds)
+2017-11-08+22:42:14 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:42:14 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:42:14 - x31 Sequence = 224 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:42:14 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:42:14 - Report processing is done.
+2017-11-08+22:42:14 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 7 minutes 6 seconds)
+2017-11-08+22:42:25 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:42:25 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:42:25 - Report processing is done.
+2017-11-08+22:42:25 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 7 minutes 18 seconds)
+2017-11-08+22:42:31 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:42:32 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:42:32 - x31 Sequence = 225 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:42:32 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:42:32 - Report processing is done.
+2017-11-08+22:42:32 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 7 minutes 24 seconds)
+2017-11-08+22:42:50 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:42:50 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:42:50 - x31 Sequence = 226 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:42:50 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:42:50 - Report processing is done.
+2017-11-08+22:42:50 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 7 minutes 42 seconds)
+2017-11-08+22:43:07 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:43:07 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:43:07 - x31 Sequence = 227 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:43:07 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:43:07 - Report processing is done.
+2017-11-08+22:43:07 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 8 minutes )
+2017-11-08+22:43:25 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:43:26 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:43:26 - Report processing is done.
+2017-11-08+22:43:26 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 8 minutes 18 seconds)
+2017-11-08+22:43:26 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:43:26 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:43:26 - x31 Sequence = 228 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:43:26 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:43:26 - Report processing is done.
+2017-11-08+22:43:26 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 8 minutes 18 seconds)
+2017-11-08+22:43:43 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:43:43 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:43:43 - x31 Sequence = 229 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:43:43 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:43:44 - Report processing is done.
+2017-11-08+22:43:44 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 8 minutes 36 seconds)
+2017-11-08+22:44:02 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:44:02 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:44:02 - x31 Sequence = 230 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:44:02 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:44:02 - Report processing is done.
+2017-11-08+22:44:02 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 8 minutes 54 seconds)
+2017-11-08+22:44:19 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:44:19 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:44:19 - x31 Sequence = 231 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:44:20 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:44:20 - Report processing is done.
+2017-11-08+22:44:20 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 9 minutes 12 seconds)
+2017-11-08+22:44:25 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:44:25 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:44:25 - Report processing is done.
+2017-11-08+22:44:25 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 9 minutes 18 seconds)
+2017-11-08+22:44:37 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:44:37 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:44:37 - x31 Sequence = 232 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:44:38 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:44:38 - Report processing is done.
+2017-11-08+22:44:38 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 9 minutes 30 seconds)
+2017-11-08+22:44:55 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:44:55 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:44:55 - x31 Sequence = 233 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:44:56 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:44:56 - Report processing is done.
+2017-11-08+22:44:56 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 9 minutes 48 seconds)
+2017-11-08+22:45:13 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:45:13 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:45:13 - x31 Sequence = 234 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:45:13 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:45:13 - Report processing is done.
+2017-11-08+22:45:13 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 10 minutes 6 seconds)
+2017-11-08+22:45:25 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:45:25 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:45:25 - Report processing is done.
+2017-11-08+22:45:25 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 10 minutes 18 seconds)
+2017-11-08+22:45:31 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:45:31 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:45:31 - x31 Sequence = 235 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:45:31 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:45:31 - Report processing is done.
+2017-11-08+22:45:31 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 10 minutes 24 seconds)
+2017-11-08+22:45:49 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:45:49 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:45:49 - x31 Sequence = 236 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:45:49 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:45:49 - Report processing is done.
+2017-11-08+22:45:49 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 10 minutes 42 seconds)
+2017-11-08+22:46:07 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:46:07 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:46:07 - x31 Sequence = 237 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:46:07 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:46:07 - Report processing is done.
+2017-11-08+22:46:07 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 11 minutes )
+2017-11-08+22:46:25 - Raw bytes:02 00 00 46 B4 0D B0 00 EC 02 7E 8C EA 15 9D 09 C4 07 16 06 07 8C 88 90  844.0
+2017-11-08+22:46:25 - This data will be posted to AcuLink during the next 18 sec cycle.
+2017-11-08+22:46:25 - Report processing is done.
+2017-11-08+22:46:25 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 11 minutes 18 seconds)
+2017-11-08+22:46:25 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:46:25 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:46:25 - x31 Sequence = 238 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:46:25 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:46:25 - Report processing is done.
+2017-11-08+22:46:25 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 11 minutes 18 seconds)
+2017-11-08+22:46:43 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:46:43 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:46:43 - x31 Sequence = 239 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:46:43 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:46:43 - Report processing is done.
+2017-11-08+22:46:43 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 11 minutes 36 seconds)
+2017-11-08+22:47:01 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:47:01 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:47:01 - x31 Sequence = 240 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:47:01 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:47:01 - Report processing is done.
+2017-11-08+22:47:01 - Next scheduled Report 3 at 2017-11-08 17:47:07 (Time since last report: 11 minutes 54 seconds)
+2017-11-08+22:47:19 - HandleWSReportEvents() received data: ƒØq
+2017-11-08+22:47:19 - Raw bytes:01 c4 af 71 00 7c 00 72 00 
+2017-11-08+22:47:19 - x31 Sequence = 241 Channel = 192 Sensor ID = 1199 Battery = 1 RSSI = 0 Gust = 4.227741 Direction = NE  Rain Delta = 0.000000
+2017-11-08+22:47:19 - Data will not be posted to My AcuRite as sharing is disabled, or user's My AcuRite credentials are invalid, or no connection to sensor, or full set of sensor data is unavailable.
+2017-11-08+22:47:19 - Report processing is done.
+2017-11-08+22:47:19 - Now requesting a Report 3 per user-defined schedule.
+2017-11-08+22:47:19 - Timer stopped called from >> requestReport3FromConsole:USBReportDataRouter.
+2017-11-08+22:47:20 - Timer stopped called from >> getReport3:USBReportDataRouter.
+2017-11-08+22:47:25 - FAILED to get part (or all) of Report 3 w/ir error: I/O Timeout
+2017-11-08+22:47:25 - Restarted timers after Report3 processing.
+2017-11-08+23:04:14 - Timer stopped called from >> reconnectDisplayConsole:AppDelegate.

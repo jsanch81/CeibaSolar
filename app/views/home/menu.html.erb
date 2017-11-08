@@ -1,48 +1,19 @@
 <head>
-<script src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['line']});
-      google.charts.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-      var data = new google.visualization.DataTable();
-      data.addColumn('number', 'horas');
-      data.addColumn('number', 'Energia de entrada');
-      //data.addColumn('number', 'Energy output');
-      //data.addColumn('number', 'Batery');
-
-
-      data.addRows(<%=@data%>);
-
-      var options = {
-        chart: {
-          title: 'data information ceiba',
-          subtitle: 'in kw'
-        },
-        height: 500,
-        axes: {
-          x: {
-            0: {side: 'top'}
-          }
-        }
-      };
-
-      var chart = new google.charts.Line(document.getElementById('line_top_x'));
-
-      chart.draw(data, google.charts.Line.convertOptions(options));
-    }
-
-  </script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
 </head>
-<p><%=link_to "datos",home_show_path%></p>
-<div class="center-xs">
-<% if user_signed_in? %>
-  <% if current_user.try(:admin?) %>
-  <div class="center-xs" id="chart_div"></div>
-  <div class="center-xs" id="line_top_x"></div>
-  <% else %>
-  <div class="center-xs" id="line_top_x"></div>
-  <% end %>
-<% end %>
+<div class="center-xs colores">
+<h1 class="center-xs">Almacenamiento de la bateria</h1>
+<%if @almacenado==0%>
+  <h1 style = "color: #86898A"><%=image_tag "batteryEmpty.png"%> <%=@almacenado%> Ah</h1>
+<%elsif @almacenado<30%>
+  <h1 style = "color: #86898A"><%=image_tag "battery1.png"%> <%=@almacenado%> Ah</h1>
+<%elsif @almacenado >=30 and @almacenado<70%>
+  <h1 style = "color: #86898A"><%=image_tag "battery2.png"%> <%=@almacenado%> Ah</h1>
+<%elsif @almacenado>=70 and @almacenado<101%>
+  <h1 style = "color: #86898A"><%=image_tag "battery3.png"%> <%=@almacenado%> Ah</h1>
+<%elsif @almacenado>=101 and @almacenado<195%>
+  <h1 style = "color: #86898A"><%=image_tag "battery4.png"%> <%=@almacenado%> Ah</h1>
+<%else @almacenado>=195 and @almacenado<200%>
+  <h1 style = "color: #86898A"><%=image_tag "batteryFull.png"%> <%=@almacenado%> Ah</h1>
+<%end%>
 </div>

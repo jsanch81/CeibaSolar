@@ -147,25 +147,7 @@ end
 
 
   def menu
-    @data=[]
-    if Dato.last == nil
-      for i in 0..9
-        @data[i]=0
-      end
-    else
-      if Dato.all.size<100
-        @dato=Dato.all()
-        for i in 0..@dato.size-1
-          @data[i]=[i,@dato[i].tempeatura.to_f]
-        end
-      else
-        @dato=Dato.last(100)
-        for i in 0..99
-          @data[i]=[i,@dato[i].tempeatura.to_f]
-        end
-      end
-    end
-    return @data
+    @almacenado = 120
   end
 
   def createUser

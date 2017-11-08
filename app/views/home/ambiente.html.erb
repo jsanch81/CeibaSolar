@@ -6,6 +6,7 @@
 -->
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
 </head>
 <!--
 <script type="text/javascript">
@@ -33,24 +34,24 @@
           <div style="float: left">
             <h2 style = "color: #033958"> <%=link_to "Temperatura", home_temperatura_path %> </h2>
             <%if @temperatura >= 20 %>
-            <h1 style = "color: #86898A"> <%=image_tag "tempAlta.png"%><%=@temperatura%>ºC</h1>
+            <h1 style = "color: #86898A"> <%=link_to image_tag("tempAlta.png"),home_temperatura_path%><%=@temperatura%>ºC</h1>
             <% else %>
-            <h1 style = "color: #86898A"> <%=image_tag "tempBaja.png"%><%=@temperatura%>ºC</h1>
+            <h1 style = "color: #86898A"> <%=link_to image_tag("tempBaja.png"),home_temperatura_path%><%=@temperatura%>ºC</h1>
             <%end%>
           </div>
           <div style="float: right">
             <h2 style = "color: #033958"> <%=link_to "Humedad", home_humedad_path %> </h2>
-            <h1 style = "color: #86898A"> <%=image_tag "humedad.png"%> <%=@humedad%>%</h1>
+            <h1 style = "color: #86898A"> <%=link_to image_tag("humedad.png"),home_humedad_path%> <%=@humedad%>%</h1>
           </div>
         </div>
         <div class="div22">
           <div style="float: left">
             <h2 style = "color: #033958"><%=link_to "Velocidad del viento", home_windspeed_path %>  </h2>
-            <h1 style = "color: #86898A"> <%=image_tag "velocidadViento.png"%> <%=@velocidadViento%> Kph</h1>
+            <h1 style = "color: #86898A"> <%=link_to image_tag("velocidadViento.png"),home_windspeed_path%> <%=@velocidadViento%> Kph</h1>
           </div>
           <div style="float: right">
             <h2 style = "color: #033958"><%=link_to "Dirección del viento", home_dirwind_path %></h2>
-            <h1 style = "color: #86898A"> <%=image_tag "direccionViento.png"%> <%=@direccionViento%>º</h1>
+            <h1 style = "color: #86898A"> <%=link_to image_tag("direccionViento.png"),home_dirwind_path%> <%=@direccionViento%>º</h1>
           </div>
         </div>
       </div>
@@ -58,20 +59,20 @@
         <div class="center-xs div33">
           <div style = "float: right">
             <h2 style = "color: #033958"> <%=link_to "Presión atmosferica", home_presionAtm_path %> </h2>
-            <h1 style = "color: #86898A"> <%=image_tag "direccionViento.png"%> <%=@presionAtm%> hPo </h1>
+            <h1 style = "color: #86898A"> <%=link_to image_tag("direccionViento.png"),home_presionAtm_path%> <%=@presionAtm%> hPo </h1>
           </div>
         </div>
         <div class="div22">
           <div class="float: left">
             <h2 style = "color: #033958"><%=link_to "Precipitación", home_precipitacion_path %></h2>
             <%if @precipitaciones < 2.0 %>
-            <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "soleado.png"%> </h1>
+            <h1 style = "color: #86898A"> <%=link_to image_tag("precipitacion.png"),home_precipitacion_path%> <%=@precipitaciones%> mm <%=image_tag "soleado.png"%> </h1>
             <% elsif @precipitaciones >=2.0 and @precipitaciones <3.5%>
-            <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "parcialmenteNublado.png"%> </h1>
+            <h1 style = "color: #86898A"> <%=link_to image_tag("precipitacion.png"),home_precipitacion_path%> <%=@precipitaciones%> mm <%=image_tag "parcialmenteNublado.png"%> </h1>
             <% elsif @precipitaciones >=3.5 and @precipitaciones <5.0%>
-            <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "nublado.png"%></h1>
+            <h1 style = "color: #86898A"> <%=link_to image_tag("precipitacion.png"),home_precipitacion_path%> <%=@precipitaciones%> mm <%=image_tag "nublado.png"%></h1>
             <% else %>
-            <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "lluvia.png"%></h1>
+            <h1 style = "color: #86898A"> <%=link_to image_tag("precipitacion.png"),home_precipitacion_path%> <%=@precipitaciones%> mm <%=image_tag "lluvia.png"%></h1>
             <%end%>
           </div>
         </div>

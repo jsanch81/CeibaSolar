@@ -4,7 +4,9 @@
 .contenedor{
    overflow:hidden;
 }
-
+.colores{
+    color: #033958;
+}
 .div1{
    float: left;
    font-weight: bold;
@@ -16,7 +18,7 @@
    -moz-border-radius: 3px 3px 3px 3px;
    -webkit-border-radius: 3px 3px 3px 3px;
 border: 1px dotted #000000;
-
+  font-family: 'Oswald', sans-serif;
 }
 
 .div2{
@@ -29,7 +31,9 @@ border: 1px dotted #000000;
    border-radius: 3px 3px 3px 3px;
    -moz-border-radius: 3px 3px 3px 3px;
    -webkit-border-radius: 3px 3px 3px 3px;
-border: 1px dotted #000000;}
+border: 1px dotted #000000;
+  font-family: 'Oswald', sans-serif;
+}
 
 .div3{
    float:left;
@@ -42,6 +46,7 @@ border: 1px dotted #000000;}
    -moz-border-radius: 3px 3px 3px 3px;
    -webkit-border-radius: 3px 3px 3px 3px;
 border: 1px dotted #000000;
+  font-family: 'Oswald', sans-serif;
 }
 
 .div11{
@@ -54,7 +59,7 @@ border: 1px dotted #000000;
    border-radius: 3px 3px 3px 3px;
    -moz-border-radius: 3px 3px 3px 3px;
    -webkit-border-radius: 3px 3px 3px 3px;
-
+     font-family: 'Oswald', sans-serif;
 }
 
 .div22{
@@ -67,6 +72,7 @@ border: 1px dotted #000000;
    border-radius: 3px 3px 3px 3px;
    -moz-border-radius: 3px 3px 3px 3px;
    -webkit-border-radius: 3px 3px 3px 3px;
+     font-family: 'Oswald', sans-serif;
 }
 .div33{
    float: left;
@@ -78,7 +84,7 @@ border: 1px dotted #000000;
    border-radius: 3px 3px 3px 3px;
    -moz-border-radius: 3px 3px 3px 3px;
    -webkit-border-radius: 3px 3px 3px 3px;
-
+  font-family: 'Oswald', sans-serif;
 }
 .div4{
    float:right;
@@ -91,4 +97,5 @@ border: 1px dotted #000000;
    -moz-border-radius: 3px 3px 3px 3px;
    -webkit-border-radius: 3px 3px 3px 3px;
 border: 1px dotted #000000;
+  font-family: 'Oswald', sans-serif;
 }
