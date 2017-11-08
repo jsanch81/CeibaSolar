@@ -66,9 +66,9 @@
             <h2 style = "color: #033958"><%=link_to "Precipitación", home_precipitacion_path %></h2>
             <%if @precipitaciones < 2.0 %>
             <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "soleado.png"%> </h1>
-            <% elsif @precipitaciones >2.0 and @precipitaciones <3.5%>
+            <% elsif @precipitaciones >=2.0 and @precipitaciones <3.5%>
             <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "parcialmenteNublado.png"%> </h1>
-            <% elsif @precipitaciones >3.4 and @precipitaciones <5.0%>
+            <% elsif @precipitaciones >=3.5 and @precipitaciones <5.0%>
             <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "nublado.png"%></h1>
             <% else %>
             <h1 style = "color: #86898A"> <%=image_tag "precipitacion.png"%> <%=@precipitaciones%> mm <%=image_tag "lluvia.png"%></h1>

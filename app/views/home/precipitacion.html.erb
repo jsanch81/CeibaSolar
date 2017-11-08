@@ -9,15 +9,15 @@
     function drawChart() {
       var data = new google.visualization.DataTable();
       data.addColumn('number', 'miutos');
-      data.addColumn('number', 'Presion atmosferica');
+      data.addColumn('number', 'precipitacion');
 
 
       data.addRows(<%=@data%>);
 
       var options = {
         chart: {
-          title: 'Informacion presión atmosferica',
-          subtitle: 'in hPa'
+          title: 'Informacion precipitacion',
+          subtitle: 'in mm'
         },
         height: 400,
         axes: {

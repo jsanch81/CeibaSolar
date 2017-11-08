@@ -5,7 +5,7 @@ def send():
     savehour="0"
     while(True):
         f=file("acuriteweather.CSV","r")
-        url='http://localhost:3000/home/post'
+        url='https://ceibasolar.herokuapp.com/home/post'
         u=requests.get(url)
         n=f.readlines()[-1]
         a=n.replace('\"','').replace('\r\n','').split(",")
