@@ -18,18 +18,33 @@ class HomeController < ApplicationController
 
   def index
   end
+
   def about
     #code
   end
+
   def menu
-    @dato=Dato.last(50)
     @data=[]
-    for i in 0..49
-      @data[i]=[i,@dato[i].carga.to_f]
+    if Dato.last == nil
+      for i in 0..9
+        @data[i]=0
+      end
+    else
+      if Dato.all.size<100
+        @dato=Dato.all()
+        for i in 0..@dato.size-1
+          @data[i]=[i,@dato[i].tempeatura.to_f]
+        end
+      else
+        @dato=Dato.last(100)
+        for i in 0..99
+          @data[i]=[i,@dato[i].tempeatura.to_f]
+        end
+      end
     end
-    puts(@data[0][1])
     return @data
   end
+
   def createUser
     @user = User.new
   end
@@ -39,17 +54,29 @@ class HomeController < ApplicationController
     @user.save
     redirect_to home_createUser_path
   end
+
   def consumo
 
   end
+
   def ambiente
-    @temperatura = Dato.last().tempeatura.to_f
-    @humedad = Dato.last().humedad.to_f
-    @velocidadViento = Dato.last().windSpeed.to_f
-    @direccionViento = Dato.last().windDir.to_f
-    @presionAtm = Dato.last().presion.to_f
-    @precipitaciones = Dato.last().precipitacion.to_f
+    if Dato.last==nil
+      @temperatura = 0.0
+      @humedad = 0.0
+      @velocidadViento = 0.0
+      @direccionViento = 0.0
+      @presionAtm = 0.0
+      @precipitaciones = 0.0
+    else
+      @temperatura = Dato.last().tempeatura.to_f
+      @humedad = Dato.last().humedad.to_f
+      @velocidadViento = Dato.last().windSpeed.to_f
+      @direccionViento = Dato.last().windDir.to_f
+      @presionAtm = Dato.last().presion.to_f
+      @precipitaciones = Dato.last().precipitacion.to_f
+    end
   end
+
 private
 
   def datos_params
