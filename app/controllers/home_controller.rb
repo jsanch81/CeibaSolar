@@ -11,10 +11,132 @@ class HomeController < ApplicationController
   def show
     @dato=Dato.last
   end
-
-  def tabla
-
+def precipitacion
+  @data=[]
+  if Dato.last == nil
+    for i in 0..9
+      @data[i]=0
+    end
+  else
+    if Dato.all.size<100
+      @dato=Dato.all()
+      for i in 0..@dato.size-1
+        @data[i]=[i*12,@dato[i].precipitacion.to_f]
+      end
+    else
+      @dato=Dato.last(100)
+      for i in 0..99
+        @data[i]=[i*12,@dato[i].precipitacion.to_f]
+      end
+    end
   end
+end
+
+def presionAtm
+  @data=[]
+  if Dato.last == nil
+    for i in 0..9
+      @data[i]=0
+    end
+  else
+    if Dato.all.size<100
+      @dato=Dato.all()
+      for i in 0..@dato.size-1
+        @data[i]=[i*12,@dato[i].presion.to_f]
+      end
+    else
+      @dato=Dato.last(100)
+      for i in 0..99
+        @data[i]=[i*12,@dato[i].presion.to_f]
+      end
+    end
+  end
+end
+
+  def dirwind
+    @data=[]
+    if Dato.last == nil
+      for i in 0..9
+        @data[i]=0
+      end
+    else
+      if Dato.all.size<100
+        @dato=Dato.all()
+        for i in 0..@dato.size-1
+          @data[i]=[i*12,@dato[i].windDir.to_f]
+        end
+      else
+        @dato=Dato.last(100)
+        for i in 0..99
+          @data[i]=[i*12,@dato[i].windDir.to_f]
+        end
+      end
+    end
+  end
+
+  def windspeed
+    @data=[]
+    if Dato.last == nil
+      for i in 0..9
+        @data[i]=0
+      end
+    else
+      if Dato.all.size<100
+        @dato=Dato.all()
+        for i in 0..@dato.size-1
+          @data[i]=[i*12,@dato[i].windSpeed.to_f]
+        end
+      else
+        @dato=Dato.last(100)
+        for i in 0..99
+          @data[i]=[i*12,@dato[i].windSpeed.to_f]
+        end
+      end
+    end
+  end
+
+  def humedad
+    @data=[]
+    if Dato.last == nil
+      for i in 0..9
+        @data[i]=0
+      end
+    else
+      if Dato.all.size<100
+        @dato=Dato.all()
+        for i in 0..@dato.size-1
+          @data[i]=[i*12,@dato[i].humedad.to_f]
+        end
+      else
+        @dato=Dato.last(100)
+        for i in 0..99
+          @data[i]=[i*12,@dato[i].humedad.to_f]
+        end
+      end
+    end
+  end
+
+  def temperatura
+    @data=[]
+    if Dato.last == nil
+      for i in 0..9
+        @data[i]=0
+      end
+    else
+      if Dato.all.size<100
+        @dato=Dato.all()
+        for i in 0..@dato.size-1
+          @data[i]=[i*12,@dato[i].tempeatura.to_f]
+        end
+      else
+        @dato=Dato.last(100)
+        for i in 0..99
+          @data[i]=[i*12,@dato[i].tempeatura.to_f]
+        end
+      end
+    end
+  end
+
 
   def index
   end
@@ -22,6 +144,7 @@ class HomeController < ApplicationController
   def about
     #code
   end
+
 
   def menu
     @data=[]

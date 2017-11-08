@@ -7,7 +7,13 @@ Rails.application.routes.draw do
 
   post "home/post"
   get "home/show"
-  get "home/tabla"
+
+  get "home/temperatura"
+  get "home/humedad"
+  get "home/windspeed"
+  get "home/dirwind"
+  get "home/presionAtm"
+  get "home/precipitacion"
   get "home/createUser"
   get "home/consumo"
   get "home/ambiente"

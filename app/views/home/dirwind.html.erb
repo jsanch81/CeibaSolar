@@ -5,22 +5,21 @@
       google.charts.load('current', {'packages':['line']});
       google.charts.setOnLoadCallback(drawChart);
 
+
     function drawChart() {
       var data = new google.visualization.DataTable();
-      data.addColumn('number', 'horas');
-      data.addColumn('number', 'Energia de entrada');
-      //data.addColumn('number', 'Energy output');
-      //data.addColumn('number', 'Batery');
+      data.addColumn('number', 'miutos');
+      data.addColumn('number', 'Direccion del viento');
 
 
       data.addRows(<%=@data%>);
 
       var options = {
         chart: {
-          title: 'data information ceiba',
-          subtitle: 'in kw'
+          title: 'Informacion direccion del viento',
+          subtitle: 'in grados º'
         },
-        height: 500,
+        height: 400,
         axes: {
           x: {
             0: {side: 'top'}
@@ -34,12 +33,10 @@
     }
 
   </script>
-</head>
-<p><%=link_to "datos",home_show_path%></p>
+  </head>
 <div class="center-xs">
 <% if user_signed_in? %>
   <% if current_user.try(:admin?) %>
-  <div class="center-xs" id="chart_div"></div>
   <div class="center-xs" id="line_top_x"></div>
   <% else %>
   <div class="center-xs" id="line_top_x"></div>
