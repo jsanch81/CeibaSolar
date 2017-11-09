@@ -9,6 +9,8 @@ gem 'pg'
 
 gem 'bundle'
 
+gem 'jquery-turbolinks'
+
 gem 'bundler'
 
 gem 'cancancan'
