@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171106181757) do
+ActiveRecord::Schema.define(version: 20171115001048) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -45,6 +45,8 @@ ActiveRecord::Schema.define(version: 20171106181757) do
     t.string "precipitacion"
     t.string "windSpeed"
     t.string "windDir"
+    t.string "cbateria"
+    t.string "cconsumo"
   end
 
   create_table "roles", force: :cascade do |t|

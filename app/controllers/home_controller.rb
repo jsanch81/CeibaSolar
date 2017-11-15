@@ -3,8 +3,27 @@ class HomeController < ApplicationController
   skip_before_action :authenticate_user!, :only => [:index,:about,:createUser,:post,:show,:tabla]
   protect_from_forgery with: :null_session
   @dato = ""
+
   def post
-    @dato = Dato.new(datos_params)
+    @dato = Dato.new
+    @dato.presion = datos_params[:presion]
+    @dato.presion = datos_params[:tempeatura]
+    @dato.presion = datos_params[:humedad]
+    @dato.presion = datos_params[:carga]
+    @dato.presion = datos_params[:clima]
+    @dato.presion = datos_params[:enegiaEntrada]
+    @dato.presion = datos_params[:energiaSalida]
+    @dato.presion = datos_params[:precipitacion]
+    @dato.presion = datos_params[:windSpeed]
+    @dato.presion = datos_params[:windDir]
+    @dato.presion = datos_params[:cbateria]
+    flag = Dato.last.cbateria
+    if flag == nil
+      @dato.presion = datos_params[:cconsumo]
+    else
+      @dato.presion = datos_params[:cconsumo] + flag
+    end
+
     @dato.save
   end
 
@@ -161,7 +180,11 @@ end
   end
 
   def consumo
-
+    if Data.last.cconsumo == nil
+      @datac=0.0
+    else
+      @datac=Dato.last.cconsumo      #code
+    end
   end
 
   def ambiente
@@ -185,7 +208,7 @@ end
 private
 
   def datos_params
-    params.require(:dato).permit(:presion,:tempeatura,:humedad,:carga,:clima,:enegiaEntrada,:energiaSalida,:precipitacion,:windSpeed,:windDir)
+    params.require(:dato).permit(:presion,:tempeatura,:humedad,:carga,:clima,:enegiaEntrada,:energiaSalida,:precipitacion,:windSpeed,:windDir,:cbateria,:cconsumo)
   end
 
   def admin_params
