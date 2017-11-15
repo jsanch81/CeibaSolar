@@ -180,7 +180,7 @@ end
   end
 
   def consumo
-    if Data.last.cconsumo == nil
+    if Dato.last.cconsumo == nil
       @datac=0.0
     else
       @datac=Dato.last.cconsumo      #code
