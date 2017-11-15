@@ -9,7 +9,6 @@ class HomeController < ApplicationController
     @dato.save
   end
   def post2
-
     @dato.Datoc.new
     @dato.cbateria = params_data[:cbateria]
     flag = Datoc.last.cbateria
@@ -159,7 +158,11 @@ end
 
 
   def menu
-    @almacenado = 120
+    if Datoc.last == nil
+      @almacenado=0.0
+    else
+      @almacenado=Datoc.last.cconsumo      #code
+    end
   end
 
   def createUser
@@ -176,7 +179,7 @@ end
     if Datoc.last == nil
       @datac=0.0
     else
-      @datac=Datoc.last.cconsumo      #code
+      @datac=Datoc.last.cconsumo.to_f      #code
     end
   end
 
