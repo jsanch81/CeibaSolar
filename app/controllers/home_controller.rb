@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
 
-  skip_before_action :authenticate_user!, :only => [:index,:about,:createUser,:post,:show,:tabla]
+  skip_before_action :authenticate_user!, :only => [:index,:about,:createUser,:post,:show,:tabla,:post2]
   protect_from_forgery with: :null_session
   @dato = ""
 
@@ -8,8 +8,9 @@ class HomeController < ApplicationController
     @dato = Dato.new(datos_params)
     @dato.save
   end
+
   def post2
-    @dato.Datoc.new
+    @dato=Datoc.new
     @dato.cbateria = params_data[:cbateria]
     flag = Datoc.last.cbateria
     if flag == nil
