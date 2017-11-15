@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get "home/menu"
 
   post "home/post"
+  post "home/post2"
   get "home/show"
 
   get "home/temperatura"

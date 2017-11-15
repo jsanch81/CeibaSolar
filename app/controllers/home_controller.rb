@@ -5,31 +5,23 @@ class HomeController < ApplicationController
   @dato = ""
 
   def post
-    @dato = Dato.new
-    @dato.presion = datos_params[:presion]
-    @dato.presion = datos_params[:tempeatura]
-    @dato.presion = datos_params[:humedad]
-    @dato.presion = datos_params[:carga]
-    @dato.presion = datos_params[:clima]
-    @dato.presion = datos_params[:enegiaEntrada]
-    @dato.presion = datos_params[:energiaSalida]
-    @dato.presion = datos_params[:precipitacion]
-    @dato.presion = datos_params[:windSpeed]
-    @dato.presion = datos_params[:windDir]
-    @dato.presion = datos_params[:cbateria]
+    @dato = Dato.new(datos_params)
+    @dato.save
+  end
+  def post2
+    @dato.Datac.new
+    @dato.cbateria = datos_params[:cbateria]
     flag = Dato.last.cbateria
     if flag == nil
-      @dato.presion = datos_params[:cconsumo]
+      @dato.cconsumo = datos_params[:cconsumo]
     else
-      @dato.presion = datos_params[:cconsumo] + flag
+      @dato.cconsumo = (datos_params[:cconsumo].to_f + flag.to_f).to_s
     end
-
     @dato.save
   end
 
-  def show
-    @dato=Dato.last
-  end
+def show
+    @dato=Dato.last  end
 def precipitacion
   @data=[]
   if Dato.last == nil
@@ -208,9 +200,11 @@ end
 private
 
   def datos_params
-    params.require(:dato).permit(:presion,:tempeatura,:humedad,:carga,:clima,:enegiaEntrada,:energiaSalida,:precipitacion,:windSpeed,:windDir,:cbateria,:cconsumo)
+    params.require(:dato).permit(:presion,:tempeatura,:humedad,:carga,:clima,:enegiaEntrada,:energiaSalida,:precipitacion,:windSpeed,:windDir)
   end
-
+def params_data
+  params.require(:datoc).permit(:cbateria,:cconsumo)
+end
   def admin_params
     if current_user.admin
       params.require(:user).permit(:email,:password,:password_confirmation,:admin)

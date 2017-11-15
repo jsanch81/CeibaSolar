@@ -1,0 +1,2 @@
+class Datoc < ApplicationRecord
+end
