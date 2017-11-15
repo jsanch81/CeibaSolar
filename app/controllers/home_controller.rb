@@ -9,13 +9,14 @@ class HomeController < ApplicationController
     @dato.save
   end
   def post2
-    @dato.Datac.new
-    @dato.cbateria = datos_params[:cbateria]
-    flag = Dato.last.cbateria
+
+    @dato.Datoc.new
+    @dato.cbateria = params_data[:cbateria]
+    flag = Datoc.last.cbateria
     if flag == nil
-      @dato.cconsumo = datos_params[:cconsumo]
+      @dato.cconsumo = params_data[:cconsumo]
     else
-      @dato.cconsumo = (datos_params[:cconsumo].to_f + flag.to_f).to_s
+      @dato.cconsumo = (params_data[:cconsumo].to_f + flag.to_f).to_s
     end
     @dato.save
   end
@@ -172,10 +173,10 @@ end
   end
 
   def consumo
-    if Dato.last.cconsumo == nil
+    if Datoc.last == nil
       @datac=0.0
     else
-      @datac=Dato.last.cconsumo      #code
+      @datac=Datoc.last.cconsumo      #code
     end
   end
 
